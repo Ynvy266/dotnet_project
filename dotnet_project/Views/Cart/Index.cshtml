@@ -46,14 +46,14 @@
 									<p class="cart_total_price">$@Model.CartItems.Where(x => x.ProductId == item.ProductId).Sum(x => x.Quantity * x.Price).ToString()</p>
 								</td>
 								<td class="cart_delete">
-									<a class="cart_quantity_delete" asp-controller="Cart" sp-action="Remove" asp-route-id="@item.ProductId"> x </a>
+									<a class="cart_quantity_delete" asp-controller="Cart" asp-action="Remove" asp-route-id="@item.ProductId"> x </a>
 								</td>
 							</tr>
 						}
 						<tr rowspan = "6">
 							<td colspan="5"><p class="cart_total_price">Grand Total: $@Model.GrandTotal.ToString()</p></td>
 							<td class="cart_delete">
-								<a class="cart_quantity_delete" asp-controller="Cart" sp-action="Clear"> Clear All </a>
+								<a class="cart_quantity_delete" asp-controller="Cart" asp-action="Clear"> Clear All </a>
 							</td>
 						</tr>
 					}

@@ -70,7 +70,7 @@ namespace dotnet_project.Controllers
         {
             List<CartItemModel> cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart");
             CartItemModel cartItem = cart.Where(c => c.ProductId == Id).FirstOrDefault();
-            if (cartItem.Quantity > 1)
+            if (cartItem.Quantity >= 1)
             {
                 ++cartItem.Quantity;
             }
@@ -97,9 +97,8 @@ namespace dotnet_project.Controllers
             return RedirectToAction("Index");
         }
 
-        public async Task<IActionResult> Clear(int Id)
+        public async Task<IActionResult> Clear()
         {
-
             HttpContext.Session.Remove("Cart");
             return RedirectToAction("Index");
         }
