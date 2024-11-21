@@ -21,9 +21,9 @@
 								<p>@item.Name</p>
 								@* <p>Category: @item.Category.Name</p> *@
 								@* <p>Brand: @item.Brand.Name</p> *@
-								<a class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 							</div>
 						</a>
+						<a class="btn btn-default add-to-cart" asp-action="Add" asp-controller="Cart" asp-route-Id="@item.Id"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 					</div>
 
 					<div class="choose">
