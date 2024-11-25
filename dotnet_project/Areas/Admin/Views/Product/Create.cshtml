@@ -1,0 +1,63 @@
+﻿@model ProductModel
+@{
+	ViewData["title"] = "Create Product";
+}
+
+<h4>Create Product</h4>
+
+@* <form asp-action="Create" enctype="multipart/form-data">  *@
+@* 	<div asp-validate-summary="ModelOnly" class="text-danger"></div> *@
+@* 	<div class="form-group"></div> *@
+@* </form> *@
+
+<div class="col-md-8">
+    <form asp-action="Create" enctype="multipart/form-data">
+        <div asp-validate-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group">
+            <label>Name</label>
+            <input asp-for="Name" class="form-control">
+            <span asp-validate-for="Name" class="text-danger"/>
+        </div>
+
+        <div class="form-group">
+            <label>Price</label>
+            <input asp-for="Price" class="form-control">
+            <span asp-validate-for="Price" class="text-danger" />
+        </div>
+
+        <div class="form-group">
+            <label>Image</label>
+            <input asp-for="Image" class="form-control">
+            <span asp-validate-for="Image" class="text-danger" />
+        </div>
+
+        <div class="form-group">
+            <label>Description</label>
+            <textarea asp-for="Description" class="form-control"></textarea>
+            <span asp-validate-for="Description" class="text-danger"/>
+        </div>
+
+        <div class="form-group">
+            <label>Category</label>
+            <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.Categories">
+                <option selected>Choose...</option>
+            </select>
+            <span asp-validate-for="CategoryId" class="text-danger" />
+        </div>
+
+        <div class="form-group">
+            <label>Brand</label>
+            <select asp-for="BrandId" class="form-control" asp-items="ViewBag.Brands">
+                <option selected>Choose...</option>
+            </select>
+            <span asp-validate-for="BrandId" class="text-danger" />
+        </div>
+
+        <div class="form-group">
+            <button class="btn btn-primary">Add</button>
+        </div>
+        
+    </form>
+    <a asp-action="Index">Back to Products List</a>
+</div>

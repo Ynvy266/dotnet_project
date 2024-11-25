@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace dotnet_project.Controllers
 {
     public class CartController : Controller
-    {
+    { 
         private readonly DataContext _dataContext;
         public CartController(DataContext _context)
         {

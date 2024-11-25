@@ -577,51 +577,6 @@
       ]
     },
     {
-      "Route": "dotnet_project.0vzwhbpbiw.styles.css",
-      "AssetFile": "dotnet_project.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1131"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jIqn7BaE0R8mLj3RsswiccBrtEnVBhBNPFMECK7HpPc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 17 Nov 2024 18:01:11 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0vzwhbpbiw"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-jIqn7BaE0R8mLj3RsswiccBrtEnVBhBNPFMECK7HpPc="
-        },
-        {
-          "Name": "label",
-          "Value": "dotnet_project.styles.css"
-        }
-      ]
-    },
-    {
       "Route": "dotnet_project.styles.css",
       "AssetFile": "dotnet_project.styles.css",
       "Selectors": [],
@@ -636,7 +591,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1131"
+          "Value": "2274"
         },
         {
           "Name": "Content-Type",
@@ -644,17 +599,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jIqn7BaE0R8mLj3RsswiccBrtEnVBhBNPFMECK7HpPc=\""
+          "Value": "\"DtSSd01UOk+dsnNc0gWtNWM5jYEvrBYXKax5/xP0Zuw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 17 Nov 2024 18:01:11 GMT"
+          "Value": "Sun, 24 Nov 2024 07:54:48 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jIqn7BaE0R8mLj3RsswiccBrtEnVBhBNPFMECK7HpPc="
+          "Value": "sha256-DtSSd01UOk+dsnNc0gWtNWM5jYEvrBYXKax5/xP0Zuw="
+        }
+      ]
+    },
+    {
+      "Route": "dotnet_project.u99sq5kl14.styles.css",
+      "AssetFile": "dotnet_project.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DtSSd01UOk+dsnNc0gWtNWM5jYEvrBYXKax5/xP0Zuw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 07:54:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u99sq5kl14"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DtSSd01UOk+dsnNc0gWtNWM5jYEvrBYXKax5/xP0Zuw="
+        },
+        {
+          "Name": "label",
+          "Value": "dotnet_project.styles.css"
         }
       ]
     },
