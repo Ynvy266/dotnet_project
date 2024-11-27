@@ -1,14 +1,9 @@
 ﻿@model ProductModel
 @{
-	ViewData["title"] = "Create Product";
+    ViewData["title"] = "Create Product";
 }
 
 <h4>Create Product</h4>
-
-@* <form asp-action="Create" enctype="multipart/form-data">  *@
-@* 	<div asp-validate-summary="ModelOnly" class="text-danger"></div> *@
-@* 	<div class="form-group"></div> *@
-@* </form> *@
 
 <div class="col-md-8">
     <form asp-action="Create" enctype="multipart/form-data">
@@ -28,8 +23,8 @@
 
         <div class="form-group">
             <label>Image</label>
-            <input asp-for="Image" class="form-control">
-            <span asp-validate-for="Image" class="text-danger" />
+            <input asp-for="ImageUpload" class="form-control">
+            <span asp-validate-for="ImageUpload" class="text-danger" />
         </div>
 
         <div class="form-group">
@@ -57,7 +52,16 @@
         <div class="form-group">
             <button class="btn btn-primary">Add</button>
         </div>
-        
+
     </form>
     <a asp-action="Index">Back to Products List</a>
 </div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace( "Description" );
+    </script>
+}

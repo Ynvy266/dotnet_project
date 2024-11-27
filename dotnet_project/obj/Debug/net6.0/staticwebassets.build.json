@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GucLzJ72X4UeKUmIx8tFxnKA0JcLjOJnkZQeNfrtQIM=",
+  "Hash": "4j1zy2lkbzHSwL62CzXf5B79Kb2SoAep2cKQAQ6NiG0=",
   "Source": "dotnet_project",
   "BasePath": "_content/dotnet_project",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "0vzwhbpbiw",
-      "Integrity": "jIqn7BaE0R8mLj3RsswiccBrtEnVBhBNPFMECK7HpPc=",
+      "Fingerprint": "u99sq5kl14",
+      "Integrity": "DtSSd01UOk+dsnNc0gWtNWM5jYEvrBYXKax5/xP0Zuw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\obj\\Debug\\net6.0\\scopedcss\\bundle\\dotnet_project.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "0vzwhbpbiw",
-      "Integrity": "jIqn7BaE0R8mLj3RsswiccBrtEnVBhBNPFMECK7HpPc=",
+      "Fingerprint": "u99sq5kl14",
+      "Integrity": "DtSSd01UOk+dsnNc0gWtNWM5jYEvrBYXKax5/xP0Zuw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\dotnet_project.bundle.scp.css"
@@ -227,12 +227,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\1.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz1.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/BobDinetz/1#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/BobDinetz/bobdinetz1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -245,15 +245,15 @@
       "Integrity": "BstVEUvEJsXSM6nsi2e4rU1pnhbEXDV3C9l5sbW27co=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\bobdinetz1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\10.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz10.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/BobDinetz/10#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/BobDinetz/bobdinetz10#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -266,15 +266,15 @@
       "Integrity": "erq6fdYvoBccv6EfX/zklzBxOFKzTtEqVCowfAfYONg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\10.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\bobdinetz10.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\2.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz2.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/BobDinetz/2#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/BobDinetz/bobdinetz2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -287,15 +287,15 @@
       "Integrity": "rbeOoG4uIjcZ9xe0lu6NzEFz2gFK1d1DQBO7nODMPIk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\bobdinetz2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\3.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz3.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/BobDinetz/3#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/BobDinetz/bobdinetz3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -308,15 +308,15 @@
       "Integrity": "0r+akNo5QHut4rmgtDm1a4HdfkOiOUdqZOstean6j8M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\bobdinetz3.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\4.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz4.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/BobDinetz/4#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/BobDinetz/bobdinetz4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -329,15 +329,15 @@
       "Integrity": "vJdvZNF89x+EoIgRxdkrDnrLSbBgztqku0cqwB9Q49o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\bobdinetz4.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\5.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz5.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/BobDinetz/5#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/BobDinetz/bobdinetz5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -350,15 +350,15 @@
       "Integrity": "/AzKzKW2PeUh8+/02RfwnMPm762JRYuTygU9fIHym08=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\5.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\bobdinetz5.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\6.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz6.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/BobDinetz/6#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/BobDinetz/bobdinetz6#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -371,15 +371,15 @@
       "Integrity": "6EoGYDHzUoV2SSXcN1q1QFpPCPv0/pUorLA5Vd5WK0Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\6.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\bobdinetz6.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\7.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz7.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/BobDinetz/7#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/BobDinetz/bobdinetz7#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -392,15 +392,15 @@
       "Integrity": "noOXzH5C9ZOzPnK6R471yr65r1K+iwMIMa1ZAMBNjhQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\7.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\bobdinetz7.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\8.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz8.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/BobDinetz/8#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/BobDinetz/bobdinetz8#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -413,15 +413,15 @@
       "Integrity": "0g6nLYifpyDufHbLVH2PeAzQdkjzaRgFc3LESPsuU3M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\8.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\bobdinetz8.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\9.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz9.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/BobDinetz/9#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/BobDinetz/bobdinetz9#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -434,7 +434,7 @@
       "Integrity": "MaYXpS2I1/Mwmu9AvlUJYlidL9W0gHKwZMthwNzyZ9c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\9.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\BobDinetz\\bobdinetz9.jpg"
     },
     {
       "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\gallery1.jpg",
@@ -458,12 +458,12 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\1.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann1.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/Hanselmann/1#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/Hanselmann/hanselmann1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -476,15 +476,15 @@
       "Integrity": "5HtF8yqNFfsUd9XQvACyr/JrNngVmGppx+9tsx77QLA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Hanselmann\\1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Hanselmann\\hanselmann1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\2.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann2.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/Hanselmann/2#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/Hanselmann/hanselmann2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -497,15 +497,15 @@
       "Integrity": "ruz8BTYpxet3BxHBgliKQVtTo5aDLMDO+SIWe/sSLcw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Hanselmann\\2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Hanselmann\\hanselmann2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\3.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann3.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/Hanselmann/3#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/Hanselmann/hanselmann3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -518,15 +518,15 @@
       "Integrity": "VqNLHTJ7D97ymAxgwRzVZMdzHBAUCwls5/jh/Wn8/vY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Hanselmann\\3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Hanselmann\\hanselmann3.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\4.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann4.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/Hanselmann/4#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/Hanselmann/hanselmann4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -539,15 +539,15 @@
       "Integrity": "3OPVGLf9BX91uzebwdHroE18kRKXqV+A5IbLakZZVt0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Hanselmann\\4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Hanselmann\\hanselmann4.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\5.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann5.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/Hanselmann/5#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/Hanselmann/hanselmann5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -560,15 +560,15 @@
       "Integrity": "3wgjyhawSeBKDDe9eOuepYilWHSM6p9awNa9JhOPWzk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Hanselmann\\5.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Hanselmann\\hanselmann5.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\6.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann6.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/Hanselmann/6#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/Hanselmann/hanselmann6#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -581,15 +581,15 @@
       "Integrity": "+KJndukp/D2Y1y9HNR8l6OQ/ArY5lhsQK1itqKvdjpU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Hanselmann\\6.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Hanselmann\\hanselmann6.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\7.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann7.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/Hanselmann/7#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/Hanselmann/hanselmann7#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -602,15 +602,15 @@
       "Integrity": "ZIPw/di8oUieFEN2oL2fnjjTjPMelJ3DZcatJ0YsFX8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Hanselmann\\7.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Hanselmann\\hanselmann7.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\8.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann8.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/Hanselmann/8#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/Hanselmann/hanselmann8#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -623,15 +623,15 @@
       "Integrity": "Mf1dqAEtRLxGnljs1/UqZy5er+aqO/tL2RXKYeoeuCw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Hanselmann\\8.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Hanselmann\\hanselmann8.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\1.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\nobrand1.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/NoBrand/1#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/NoBrand/nobrand1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -644,15 +644,15 @@
       "Integrity": "RpT0ATERTwWP725XWy+jA2AGr55wceApn9+Kyz5GKZY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\NoBrand\\1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\NoBrand\\nobrand1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\2.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\nobrand2.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/NoBrand/2#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/NoBrand/nobrand2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -665,15 +665,15 @@
       "Integrity": "xW0X7IcpbToC3zQKREFko27AA/H5ZSnWaCrR/mMUoXQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\NoBrand\\2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\NoBrand\\nobrand2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\3.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\nobrand3.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/NoBrand/3#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/NoBrand/nobrand3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -686,15 +686,15 @@
       "Integrity": "FyeEhUFhOf5JGXWduCda2mXD0LQIm93+FfsnpmFhE0Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\NoBrand\\3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\NoBrand\\nobrand3.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\4.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\nobrand4.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/NoBrand/4#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/NoBrand/nobrand4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -707,15 +707,15 @@
       "Integrity": "PeT/3r3rKa09GrnKsLW8BMbrYvuO4cnbLpai0Po8EUs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\NoBrand\\4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\NoBrand\\nobrand4.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\1.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\pollipots1.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/PolliPots/1#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/PolliPots/pollipots1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -728,15 +728,15 @@
       "Integrity": "4KmSm2IsKHK1k5bwXcHXh4kLtd9hgtqn4JkambZCjJs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\PolliPots\\1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\PolliPots\\pollipots1.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\2.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\pollipots2.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/PolliPots/2#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/PolliPots/pollipots2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -749,15 +749,15 @@
       "Integrity": "sWdPuPaTraOxHiEhoc1BycHtV/2m48jRAjkdsjhzP5c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\PolliPots\\2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\PolliPots\\pollipots2.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\3.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\pollipots3.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/PolliPots/3#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/PolliPots/pollipots3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -770,15 +770,15 @@
       "Integrity": "uNINH6sdNuxO3xmiSbe4ZBk4sWDj/rBoEyL6dFMFi/E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\PolliPots\\3.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\PolliPots\\pollipots3.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\4.jpg",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\pollipots4.jpg",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/PolliPots/4#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/PolliPots/pollipots4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -791,7 +791,7 @@
       "Integrity": "3oWsUwAEy/BXfMVLLbNQvB0ojYbN2goHZNzdgnRugB4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\PolliPots\\4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\PolliPots\\pollipots4.jpg"
     },
     {
       "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\js\\bootstrap.min.js",
@@ -2178,6 +2178,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\media\\products\\d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg",
+      "SourceId": "dotnet_project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
+      "BasePath": "_content/dotnet_project",
+      "RelativePath": "media/products/d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0n6kyzh1zp",
+      "Integrity": "ZIPw/di8oUieFEN2oL2fnjjTjPMelJ3DZcatJ0YsFX8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg"
     }
   ],
   "Endpoints": [
@@ -2756,96 +2777,6 @@
       ]
     },
     {
-      "Route": "dotnet_project.0vzwhbpbiw.bundle.scp.css",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\dotnet_project.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1131"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jIqn7BaE0R8mLj3RsswiccBrtEnVBhBNPFMECK7HpPc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 17 Nov 2024 18:01:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0vzwhbpbiw"
-        },
-        {
-          "Name": "label",
-          "Value": "dotnet_project.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-jIqn7BaE0R8mLj3RsswiccBrtEnVBhBNPFMECK7HpPc="
-        }
-      ]
-    },
-    {
-      "Route": "dotnet_project.0vzwhbpbiw.styles.css",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\obj\\Debug\\net6.0\\scopedcss\\bundle\\dotnet_project.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1131"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jIqn7BaE0R8mLj3RsswiccBrtEnVBhBNPFMECK7HpPc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 17 Nov 2024 18:01:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0vzwhbpbiw"
-        },
-        {
-          "Name": "label",
-          "Value": "dotnet_project.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-jIqn7BaE0R8mLj3RsswiccBrtEnVBhBNPFMECK7HpPc="
-        }
-      ]
-    },
-    {
       "Route": "dotnet_project.bundle.scp.css",
       "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\dotnet_project.bundle.scp.css",
       "Selectors": [],
@@ -2856,7 +2787,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1131"
+          "Value": "2274"
         },
         {
           "Name": "Content-Type",
@@ -2864,11 +2795,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jIqn7BaE0R8mLj3RsswiccBrtEnVBhBNPFMECK7HpPc=\""
+          "Value": "\"DtSSd01UOk+dsnNc0gWtNWM5jYEvrBYXKax5/xP0Zuw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 17 Nov 2024 18:01:11 GMT"
+          "Value": "Sun, 24 Nov 2024 07:54:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2878,7 +2809,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jIqn7BaE0R8mLj3RsswiccBrtEnVBhBNPFMECK7HpPc="
+          "Value": "sha256-DtSSd01UOk+dsnNc0gWtNWM5jYEvrBYXKax5/xP0Zuw="
         }
       ]
     },
@@ -2893,7 +2824,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1131"
+          "Value": "2274"
         },
         {
           "Name": "Content-Type",
@@ -2901,11 +2832,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jIqn7BaE0R8mLj3RsswiccBrtEnVBhBNPFMECK7HpPc=\""
+          "Value": "\"DtSSd01UOk+dsnNc0gWtNWM5jYEvrBYXKax5/xP0Zuw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 17 Nov 2024 18:01:11 GMT"
+          "Value": "Sun, 24 Nov 2024 07:54:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2915,7 +2846,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jIqn7BaE0R8mLj3RsswiccBrtEnVBhBNPFMECK7HpPc="
+          "Value": "sha256-DtSSd01UOk+dsnNc0gWtNWM5jYEvrBYXKax5/xP0Zuw="
+        }
+      ]
+    },
+    {
+      "Route": "dotnet_project.u99sq5kl14.bundle.scp.css",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\dotnet_project.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DtSSd01UOk+dsnNc0gWtNWM5jYEvrBYXKax5/xP0Zuw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 07:54:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u99sq5kl14"
+        },
+        {
+          "Name": "label",
+          "Value": "dotnet_project.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DtSSd01UOk+dsnNc0gWtNWM5jYEvrBYXKax5/xP0Zuw="
+        }
+      ]
+    },
+    {
+      "Route": "dotnet_project.u99sq5kl14.styles.css",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\obj\\Debug\\net6.0\\scopedcss\\bundle\\dotnet_project.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DtSSd01UOk+dsnNc0gWtNWM5jYEvrBYXKax5/xP0Zuw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 07:54:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u99sq5kl14"
+        },
+        {
+          "Name": "label",
+          "Value": "dotnet_project.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DtSSd01UOk+dsnNc0gWtNWM5jYEvrBYXKax5/xP0Zuw="
         }
       ]
     },
@@ -3002,8 +3023,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/1.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\1.jpg",
+      "Route": "images/BobDinetz/bobdinetz1.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3039,8 +3060,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/1.ufs4w3w7tc.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\1.jpg",
+      "Route": "images/BobDinetz/bobdinetz1.ufs4w3w7tc.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3075,7 +3096,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/1.jpg"
+          "Value": "images/BobDinetz/bobdinetz1.jpg"
         },
         {
           "Name": "integrity",
@@ -3084,8 +3105,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/10.2qh7tiiyfj.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\10.jpg",
+      "Route": "images/BobDinetz/bobdinetz10.2qh7tiiyfj.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz10.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3120,7 +3141,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/10.jpg"
+          "Value": "images/BobDinetz/bobdinetz10.jpg"
         },
         {
           "Name": "integrity",
@@ -3129,8 +3150,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/10.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\10.jpg",
+      "Route": "images/BobDinetz/bobdinetz10.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz10.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3166,8 +3187,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/2.1zgzvivudc.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\2.jpg",
+      "Route": "images/BobDinetz/bobdinetz2.1zgzvivudc.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3202,7 +3223,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/2.jpg"
+          "Value": "images/BobDinetz/bobdinetz2.jpg"
         },
         {
           "Name": "integrity",
@@ -3211,8 +3232,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/2.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\2.jpg",
+      "Route": "images/BobDinetz/bobdinetz2.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3248,8 +3269,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/3.e8kbtqi8w8.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\3.jpg",
+      "Route": "images/BobDinetz/bobdinetz3.e8kbtqi8w8.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3284,7 +3305,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/3.jpg"
+          "Value": "images/BobDinetz/bobdinetz3.jpg"
         },
         {
           "Name": "integrity",
@@ -3293,8 +3314,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/3.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\3.jpg",
+      "Route": "images/BobDinetz/bobdinetz3.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3330,8 +3351,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/4.40c6q3iuva.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\4.jpg",
+      "Route": "images/BobDinetz/bobdinetz4.40c6q3iuva.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3366,7 +3387,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/4.jpg"
+          "Value": "images/BobDinetz/bobdinetz4.jpg"
         },
         {
           "Name": "integrity",
@@ -3375,8 +3396,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/4.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\4.jpg",
+      "Route": "images/BobDinetz/bobdinetz4.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3412,8 +3433,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/5.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\5.jpg",
+      "Route": "images/BobDinetz/bobdinetz5.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3449,8 +3470,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/5.kuv3pgdqav.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\5.jpg",
+      "Route": "images/BobDinetz/bobdinetz5.kuv3pgdqav.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3485,7 +3506,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/5.jpg"
+          "Value": "images/BobDinetz/bobdinetz5.jpg"
         },
         {
           "Name": "integrity",
@@ -3494,8 +3515,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/6.gyxwvqnptl.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\6.jpg",
+      "Route": "images/BobDinetz/bobdinetz6.gyxwvqnptl.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3530,7 +3551,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/6.jpg"
+          "Value": "images/BobDinetz/bobdinetz6.jpg"
         },
         {
           "Name": "integrity",
@@ -3539,8 +3560,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/6.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\6.jpg",
+      "Route": "images/BobDinetz/bobdinetz6.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3576,8 +3597,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/7.ay16dggnsy.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\7.jpg",
+      "Route": "images/BobDinetz/bobdinetz7.ay16dggnsy.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3612,7 +3633,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/7.jpg"
+          "Value": "images/BobDinetz/bobdinetz7.jpg"
         },
         {
           "Name": "integrity",
@@ -3621,8 +3642,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/7.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\7.jpg",
+      "Route": "images/BobDinetz/bobdinetz7.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3658,8 +3679,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/8.6enjsihvof.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\8.jpg",
+      "Route": "images/BobDinetz/bobdinetz8.6enjsihvof.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3694,7 +3715,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/8.jpg"
+          "Value": "images/BobDinetz/bobdinetz8.jpg"
         },
         {
           "Name": "integrity",
@@ -3703,8 +3724,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/8.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\8.jpg",
+      "Route": "images/BobDinetz/bobdinetz8.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3740,8 +3761,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/9.d1s9826c5h.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\9.jpg",
+      "Route": "images/BobDinetz/bobdinetz9.d1s9826c5h.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz9.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3776,7 +3797,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/9.jpg"
+          "Value": "images/BobDinetz/bobdinetz9.jpg"
         },
         {
           "Name": "integrity",
@@ -3785,8 +3806,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/9.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\9.jpg",
+      "Route": "images/BobDinetz/bobdinetz9.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\BobDinetz\\bobdinetz9.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3904,8 +3925,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/1.4klrea6hsa.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\1.jpg",
+      "Route": "images/Hanselmann/hanselmann1.4klrea6hsa.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3940,7 +3961,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/Hanselmann/1.jpg"
+          "Value": "images/Hanselmann/hanselmann1.jpg"
         },
         {
           "Name": "integrity",
@@ -3949,8 +3970,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/1.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\1.jpg",
+      "Route": "images/Hanselmann/hanselmann1.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3986,8 +4007,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/2.e8o0exw672.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\2.jpg",
+      "Route": "images/Hanselmann/hanselmann2.e8o0exw672.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4022,7 +4043,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/Hanselmann/2.jpg"
+          "Value": "images/Hanselmann/hanselmann2.jpg"
         },
         {
           "Name": "integrity",
@@ -4031,8 +4052,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/2.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\2.jpg",
+      "Route": "images/Hanselmann/hanselmann2.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4068,8 +4089,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/3.a8ogiv5gqy.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\3.jpg",
+      "Route": "images/Hanselmann/hanselmann3.a8ogiv5gqy.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4104,7 +4125,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/Hanselmann/3.jpg"
+          "Value": "images/Hanselmann/hanselmann3.jpg"
         },
         {
           "Name": "integrity",
@@ -4113,8 +4134,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/3.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\3.jpg",
+      "Route": "images/Hanselmann/hanselmann3.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4150,8 +4171,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/4.gnhur5kfg1.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\4.jpg",
+      "Route": "images/Hanselmann/hanselmann4.gnhur5kfg1.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4186,7 +4207,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/Hanselmann/4.jpg"
+          "Value": "images/Hanselmann/hanselmann4.jpg"
         },
         {
           "Name": "integrity",
@@ -4195,8 +4216,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/4.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\4.jpg",
+      "Route": "images/Hanselmann/hanselmann4.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4232,8 +4253,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/5.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\5.jpg",
+      "Route": "images/Hanselmann/hanselmann5.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4269,8 +4290,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/5.zfmpbw2948.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\5.jpg",
+      "Route": "images/Hanselmann/hanselmann5.zfmpbw2948.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4305,7 +4326,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/Hanselmann/5.jpg"
+          "Value": "images/Hanselmann/hanselmann5.jpg"
         },
         {
           "Name": "integrity",
@@ -4314,8 +4335,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/6.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\6.jpg",
+      "Route": "images/Hanselmann/hanselmann6.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4351,8 +4372,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/6.wuvz1s054w.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\6.jpg",
+      "Route": "images/Hanselmann/hanselmann6.wuvz1s054w.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4387,7 +4408,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/Hanselmann/6.jpg"
+          "Value": "images/Hanselmann/hanselmann6.jpg"
         },
         {
           "Name": "integrity",
@@ -4396,8 +4417,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/7.0n6kyzh1zp.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\7.jpg",
+      "Route": "images/Hanselmann/hanselmann7.0n6kyzh1zp.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4432,7 +4453,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/Hanselmann/7.jpg"
+          "Value": "images/Hanselmann/hanselmann7.jpg"
         },
         {
           "Name": "integrity",
@@ -4441,8 +4462,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/7.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\7.jpg",
+      "Route": "images/Hanselmann/hanselmann7.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4478,8 +4499,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/8.hsnnlkiwfq.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\8.jpg",
+      "Route": "images/Hanselmann/hanselmann8.hsnnlkiwfq.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4514,7 +4535,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/Hanselmann/8.jpg"
+          "Value": "images/Hanselmann/hanselmann8.jpg"
         },
         {
           "Name": "integrity",
@@ -4523,8 +4544,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/8.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\8.jpg",
+      "Route": "images/Hanselmann/hanselmann8.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Hanselmann\\hanselmann8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4560,8 +4581,8 @@
       ]
     },
     {
-      "Route": "images/NoBrand/1.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\1.jpg",
+      "Route": "images/NoBrand/nobrand1.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\nobrand1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4597,8 +4618,8 @@
       ]
     },
     {
-      "Route": "images/NoBrand/1.ml3emff0ke.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\1.jpg",
+      "Route": "images/NoBrand/nobrand1.ml3emff0ke.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\nobrand1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4633,7 +4654,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/NoBrand/1.jpg"
+          "Value": "images/NoBrand/nobrand1.jpg"
         },
         {
           "Name": "integrity",
@@ -4642,8 +4663,8 @@
       ]
     },
     {
-      "Route": "images/NoBrand/2.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\2.jpg",
+      "Route": "images/NoBrand/nobrand2.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\nobrand2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4679,8 +4700,8 @@
       ]
     },
     {
-      "Route": "images/NoBrand/2.pzkinjt72a.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\2.jpg",
+      "Route": "images/NoBrand/nobrand2.pzkinjt72a.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\nobrand2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4715,7 +4736,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/NoBrand/2.jpg"
+          "Value": "images/NoBrand/nobrand2.jpg"
         },
         {
           "Name": "integrity",
@@ -4724,8 +4745,8 @@
       ]
     },
     {
-      "Route": "images/NoBrand/3.fyov3pvn4u.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\3.jpg",
+      "Route": "images/NoBrand/nobrand3.fyov3pvn4u.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\nobrand3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4760,7 +4781,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/NoBrand/3.jpg"
+          "Value": "images/NoBrand/nobrand3.jpg"
         },
         {
           "Name": "integrity",
@@ -4769,8 +4790,8 @@
       ]
     },
     {
-      "Route": "images/NoBrand/3.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\3.jpg",
+      "Route": "images/NoBrand/nobrand3.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\nobrand3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4806,8 +4827,8 @@
       ]
     },
     {
-      "Route": "images/NoBrand/4.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\4.jpg",
+      "Route": "images/NoBrand/nobrand4.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\nobrand4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4843,8 +4864,8 @@
       ]
     },
     {
-      "Route": "images/NoBrand/4.p5jh598ssk.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\4.jpg",
+      "Route": "images/NoBrand/nobrand4.p5jh598ssk.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\NoBrand\\nobrand4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4879,7 +4900,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/NoBrand/4.jpg"
+          "Value": "images/NoBrand/nobrand4.jpg"
         },
         {
           "Name": "integrity",
@@ -4888,8 +4909,8 @@
       ]
     },
     {
-      "Route": "images/PolliPots/1.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\1.jpg",
+      "Route": "images/PolliPots/pollipots1.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\pollipots1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4925,8 +4946,8 @@
       ]
     },
     {
-      "Route": "images/PolliPots/1.o2cwljnewc.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\1.jpg",
+      "Route": "images/PolliPots/pollipots1.o2cwljnewc.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\pollipots1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4961,7 +4982,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/PolliPots/1.jpg"
+          "Value": "images/PolliPots/pollipots1.jpg"
         },
         {
           "Name": "integrity",
@@ -4970,8 +4991,8 @@
       ]
     },
     {
-      "Route": "images/PolliPots/2.72oa4zt5ex.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\2.jpg",
+      "Route": "images/PolliPots/pollipots2.72oa4zt5ex.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\pollipots2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5006,7 +5027,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/PolliPots/2.jpg"
+          "Value": "images/PolliPots/pollipots2.jpg"
         },
         {
           "Name": "integrity",
@@ -5015,8 +5036,8 @@
       ]
     },
     {
-      "Route": "images/PolliPots/2.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\2.jpg",
+      "Route": "images/PolliPots/pollipots2.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\pollipots2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5052,8 +5073,8 @@
       ]
     },
     {
-      "Route": "images/PolliPots/3.4d6a09d03s.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\3.jpg",
+      "Route": "images/PolliPots/pollipots3.4d6a09d03s.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\pollipots3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5088,7 +5109,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/PolliPots/3.jpg"
+          "Value": "images/PolliPots/pollipots3.jpg"
         },
         {
           "Name": "integrity",
@@ -5097,8 +5118,8 @@
       ]
     },
     {
-      "Route": "images/PolliPots/3.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\3.jpg",
+      "Route": "images/PolliPots/pollipots3.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\pollipots3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5134,8 +5155,8 @@
       ]
     },
     {
-      "Route": "images/PolliPots/4.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\4.jpg",
+      "Route": "images/PolliPots/pollipots4.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\pollipots4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5171,8 +5192,8 @@
       ]
     },
     {
-      "Route": "images/PolliPots/4.yztwazjt1l.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\4.jpg",
+      "Route": "images/PolliPots/pollipots4.yztwazjt1l.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\pollipots4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5207,7 +5228,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/PolliPots/4.jpg"
+          "Value": "images/PolliPots/pollipots4.jpg"
         },
         {
           "Name": "integrity",
@@ -10624,6 +10645,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-aBc/n/nO9esvq0e80G57lEYLonvE5dKKUgoozaiVfLM="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.0n6kyzh1zp.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\media\\products\\d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZIPw/di8oUieFEN2oL2fnjjTjPMelJ3DZcatJ0YsFX8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 16:56:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0n6kyzh1zp"
+        },
+        {
+          "Name": "label",
+          "Value": "media/products/d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZIPw/di8oUieFEN2oL2fnjjTjPMelJ3DZcatJ0YsFX8="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\media\\products\\d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZIPw/di8oUieFEN2oL2fnjjTjPMelJ3DZcatJ0YsFX8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 16:56:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZIPw/di8oUieFEN2oL2fnjjTjPMelJ3DZcatJ0YsFX8="
         }
       ]
     }

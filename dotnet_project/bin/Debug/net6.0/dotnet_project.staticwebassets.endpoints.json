@@ -741,8 +741,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/1.jpg",
-      "AssetFile": "images/BobDinetz/1.jpg",
+      "Route": "images/BobDinetz/bobdinetz1.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -778,8 +778,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/1.ufs4w3w7tc.jpg",
-      "AssetFile": "images/BobDinetz/1.jpg",
+      "Route": "images/BobDinetz/bobdinetz1.ufs4w3w7tc.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -818,13 +818,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/1.jpg"
+          "Value": "images/BobDinetz/bobdinetz1.jpg"
         }
       ]
     },
     {
-      "Route": "images/BobDinetz/10.2qh7tiiyfj.jpg",
-      "AssetFile": "images/BobDinetz/10.jpg",
+      "Route": "images/BobDinetz/bobdinetz10.2qh7tiiyfj.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz10.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -863,13 +863,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/10.jpg"
+          "Value": "images/BobDinetz/bobdinetz10.jpg"
         }
       ]
     },
     {
-      "Route": "images/BobDinetz/10.jpg",
-      "AssetFile": "images/BobDinetz/10.jpg",
+      "Route": "images/BobDinetz/bobdinetz10.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz10.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -905,8 +905,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/2.1zgzvivudc.jpg",
-      "AssetFile": "images/BobDinetz/2.jpg",
+      "Route": "images/BobDinetz/bobdinetz2.1zgzvivudc.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -945,13 +945,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/2.jpg"
+          "Value": "images/BobDinetz/bobdinetz2.jpg"
         }
       ]
     },
     {
-      "Route": "images/BobDinetz/2.jpg",
-      "AssetFile": "images/BobDinetz/2.jpg",
+      "Route": "images/BobDinetz/bobdinetz2.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -987,8 +987,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/3.e8kbtqi8w8.jpg",
-      "AssetFile": "images/BobDinetz/3.jpg",
+      "Route": "images/BobDinetz/bobdinetz3.e8kbtqi8w8.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1027,13 +1027,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/3.jpg"
+          "Value": "images/BobDinetz/bobdinetz3.jpg"
         }
       ]
     },
     {
-      "Route": "images/BobDinetz/3.jpg",
-      "AssetFile": "images/BobDinetz/3.jpg",
+      "Route": "images/BobDinetz/bobdinetz3.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1069,8 +1069,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/4.40c6q3iuva.jpg",
-      "AssetFile": "images/BobDinetz/4.jpg",
+      "Route": "images/BobDinetz/bobdinetz4.40c6q3iuva.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1109,13 +1109,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/4.jpg"
+          "Value": "images/BobDinetz/bobdinetz4.jpg"
         }
       ]
     },
     {
-      "Route": "images/BobDinetz/4.jpg",
-      "AssetFile": "images/BobDinetz/4.jpg",
+      "Route": "images/BobDinetz/bobdinetz4.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1151,8 +1151,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/5.jpg",
-      "AssetFile": "images/BobDinetz/5.jpg",
+      "Route": "images/BobDinetz/bobdinetz5.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1188,8 +1188,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/5.kuv3pgdqav.jpg",
-      "AssetFile": "images/BobDinetz/5.jpg",
+      "Route": "images/BobDinetz/bobdinetz5.kuv3pgdqav.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1228,13 +1228,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/5.jpg"
+          "Value": "images/BobDinetz/bobdinetz5.jpg"
         }
       ]
     },
     {
-      "Route": "images/BobDinetz/6.gyxwvqnptl.jpg",
-      "AssetFile": "images/BobDinetz/6.jpg",
+      "Route": "images/BobDinetz/bobdinetz6.gyxwvqnptl.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1273,13 +1273,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/6.jpg"
+          "Value": "images/BobDinetz/bobdinetz6.jpg"
         }
       ]
     },
     {
-      "Route": "images/BobDinetz/6.jpg",
-      "AssetFile": "images/BobDinetz/6.jpg",
+      "Route": "images/BobDinetz/bobdinetz6.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1315,8 +1315,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/7.ay16dggnsy.jpg",
-      "AssetFile": "images/BobDinetz/7.jpg",
+      "Route": "images/BobDinetz/bobdinetz7.ay16dggnsy.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1355,13 +1355,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/7.jpg"
+          "Value": "images/BobDinetz/bobdinetz7.jpg"
         }
       ]
     },
     {
-      "Route": "images/BobDinetz/7.jpg",
-      "AssetFile": "images/BobDinetz/7.jpg",
+      "Route": "images/BobDinetz/bobdinetz7.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1397,8 +1397,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/8.6enjsihvof.jpg",
-      "AssetFile": "images/BobDinetz/8.jpg",
+      "Route": "images/BobDinetz/bobdinetz8.6enjsihvof.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1437,13 +1437,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/8.jpg"
+          "Value": "images/BobDinetz/bobdinetz8.jpg"
         }
       ]
     },
     {
-      "Route": "images/BobDinetz/8.jpg",
-      "AssetFile": "images/BobDinetz/8.jpg",
+      "Route": "images/BobDinetz/bobdinetz8.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1479,8 +1479,8 @@
       ]
     },
     {
-      "Route": "images/BobDinetz/9.d1s9826c5h.jpg",
-      "AssetFile": "images/BobDinetz/9.jpg",
+      "Route": "images/BobDinetz/bobdinetz9.d1s9826c5h.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz9.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1519,13 +1519,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/BobDinetz/9.jpg"
+          "Value": "images/BobDinetz/bobdinetz9.jpg"
         }
       ]
     },
     {
-      "Route": "images/BobDinetz/9.jpg",
-      "AssetFile": "images/BobDinetz/9.jpg",
+      "Route": "images/BobDinetz/bobdinetz9.jpg",
+      "AssetFile": "images/BobDinetz/bobdinetz9.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1561,8 +1561,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/1.4klrea6hsa.jpg",
-      "AssetFile": "images/Hanselmann/1.jpg",
+      "Route": "images/Hanselmann/hanselmann1.4klrea6hsa.jpg",
+      "AssetFile": "images/Hanselmann/hanselmann1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1601,13 +1601,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/Hanselmann/1.jpg"
+          "Value": "images/Hanselmann/hanselmann1.jpg"
         }
       ]
     },
     {
-      "Route": "images/Hanselmann/1.jpg",
-      "AssetFile": "images/Hanselmann/1.jpg",
+      "Route": "images/Hanselmann/hanselmann1.jpg",
+      "AssetFile": "images/Hanselmann/hanselmann1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1643,8 +1643,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/2.e8o0exw672.jpg",
-      "AssetFile": "images/Hanselmann/2.jpg",
+      "Route": "images/Hanselmann/hanselmann2.e8o0exw672.jpg",
+      "AssetFile": "images/Hanselmann/hanselmann2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1683,13 +1683,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/Hanselmann/2.jpg"
+          "Value": "images/Hanselmann/hanselmann2.jpg"
         }
       ]
     },
     {
-      "Route": "images/Hanselmann/2.jpg",
-      "AssetFile": "images/Hanselmann/2.jpg",
+      "Route": "images/Hanselmann/hanselmann2.jpg",
+      "AssetFile": "images/Hanselmann/hanselmann2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1725,8 +1725,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/3.a8ogiv5gqy.jpg",
-      "AssetFile": "images/Hanselmann/3.jpg",
+      "Route": "images/Hanselmann/hanselmann3.a8ogiv5gqy.jpg",
+      "AssetFile": "images/Hanselmann/hanselmann3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1765,13 +1765,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/Hanselmann/3.jpg"
+          "Value": "images/Hanselmann/hanselmann3.jpg"
         }
       ]
     },
     {
-      "Route": "images/Hanselmann/3.jpg",
-      "AssetFile": "images/Hanselmann/3.jpg",
+      "Route": "images/Hanselmann/hanselmann3.jpg",
+      "AssetFile": "images/Hanselmann/hanselmann3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1807,8 +1807,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/4.gnhur5kfg1.jpg",
-      "AssetFile": "images/Hanselmann/4.jpg",
+      "Route": "images/Hanselmann/hanselmann4.gnhur5kfg1.jpg",
+      "AssetFile": "images/Hanselmann/hanselmann4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1847,13 +1847,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/Hanselmann/4.jpg"
+          "Value": "images/Hanselmann/hanselmann4.jpg"
         }
       ]
     },
     {
-      "Route": "images/Hanselmann/4.jpg",
-      "AssetFile": "images/Hanselmann/4.jpg",
+      "Route": "images/Hanselmann/hanselmann4.jpg",
+      "AssetFile": "images/Hanselmann/hanselmann4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1889,8 +1889,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/5.jpg",
-      "AssetFile": "images/Hanselmann/5.jpg",
+      "Route": "images/Hanselmann/hanselmann5.jpg",
+      "AssetFile": "images/Hanselmann/hanselmann5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1926,8 +1926,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/5.zfmpbw2948.jpg",
-      "AssetFile": "images/Hanselmann/5.jpg",
+      "Route": "images/Hanselmann/hanselmann5.zfmpbw2948.jpg",
+      "AssetFile": "images/Hanselmann/hanselmann5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1966,13 +1966,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/Hanselmann/5.jpg"
+          "Value": "images/Hanselmann/hanselmann5.jpg"
         }
       ]
     },
     {
-      "Route": "images/Hanselmann/6.jpg",
-      "AssetFile": "images/Hanselmann/6.jpg",
+      "Route": "images/Hanselmann/hanselmann6.jpg",
+      "AssetFile": "images/Hanselmann/hanselmann6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2008,8 +2008,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/6.wuvz1s054w.jpg",
-      "AssetFile": "images/Hanselmann/6.jpg",
+      "Route": "images/Hanselmann/hanselmann6.wuvz1s054w.jpg",
+      "AssetFile": "images/Hanselmann/hanselmann6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2048,13 +2048,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/Hanselmann/6.jpg"
+          "Value": "images/Hanselmann/hanselmann6.jpg"
         }
       ]
     },
     {
-      "Route": "images/Hanselmann/7.0n6kyzh1zp.jpg",
-      "AssetFile": "images/Hanselmann/7.jpg",
+      "Route": "images/Hanselmann/hanselmann7.0n6kyzh1zp.jpg",
+      "AssetFile": "images/Hanselmann/hanselmann7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2093,13 +2093,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/Hanselmann/7.jpg"
+          "Value": "images/Hanselmann/hanselmann7.jpg"
         }
       ]
     },
     {
-      "Route": "images/Hanselmann/7.jpg",
-      "AssetFile": "images/Hanselmann/7.jpg",
+      "Route": "images/Hanselmann/hanselmann7.jpg",
+      "AssetFile": "images/Hanselmann/hanselmann7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2135,8 +2135,8 @@
       ]
     },
     {
-      "Route": "images/Hanselmann/8.hsnnlkiwfq.jpg",
-      "AssetFile": "images/Hanselmann/8.jpg",
+      "Route": "images/Hanselmann/hanselmann8.hsnnlkiwfq.jpg",
+      "AssetFile": "images/Hanselmann/hanselmann8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2175,13 +2175,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/Hanselmann/8.jpg"
+          "Value": "images/Hanselmann/hanselmann8.jpg"
         }
       ]
     },
     {
-      "Route": "images/Hanselmann/8.jpg",
-      "AssetFile": "images/Hanselmann/8.jpg",
+      "Route": "images/Hanselmann/hanselmann8.jpg",
+      "AssetFile": "images/Hanselmann/hanselmann8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2217,8 +2217,8 @@
       ]
     },
     {
-      "Route": "images/NoBrand/1.jpg",
-      "AssetFile": "images/NoBrand/1.jpg",
+      "Route": "images/NoBrand/nobrand1.jpg",
+      "AssetFile": "images/NoBrand/nobrand1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2254,8 +2254,8 @@
       ]
     },
     {
-      "Route": "images/NoBrand/1.ml3emff0ke.jpg",
-      "AssetFile": "images/NoBrand/1.jpg",
+      "Route": "images/NoBrand/nobrand1.ml3emff0ke.jpg",
+      "AssetFile": "images/NoBrand/nobrand1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2294,13 +2294,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/NoBrand/1.jpg"
+          "Value": "images/NoBrand/nobrand1.jpg"
         }
       ]
     },
     {
-      "Route": "images/NoBrand/2.jpg",
-      "AssetFile": "images/NoBrand/2.jpg",
+      "Route": "images/NoBrand/nobrand2.jpg",
+      "AssetFile": "images/NoBrand/nobrand2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2336,8 +2336,8 @@
       ]
     },
     {
-      "Route": "images/NoBrand/2.pzkinjt72a.jpg",
-      "AssetFile": "images/NoBrand/2.jpg",
+      "Route": "images/NoBrand/nobrand2.pzkinjt72a.jpg",
+      "AssetFile": "images/NoBrand/nobrand2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2376,13 +2376,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/NoBrand/2.jpg"
+          "Value": "images/NoBrand/nobrand2.jpg"
         }
       ]
     },
     {
-      "Route": "images/NoBrand/3.fyov3pvn4u.jpg",
-      "AssetFile": "images/NoBrand/3.jpg",
+      "Route": "images/NoBrand/nobrand3.fyov3pvn4u.jpg",
+      "AssetFile": "images/NoBrand/nobrand3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2421,13 +2421,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/NoBrand/3.jpg"
+          "Value": "images/NoBrand/nobrand3.jpg"
         }
       ]
     },
     {
-      "Route": "images/NoBrand/3.jpg",
-      "AssetFile": "images/NoBrand/3.jpg",
+      "Route": "images/NoBrand/nobrand3.jpg",
+      "AssetFile": "images/NoBrand/nobrand3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2463,8 +2463,8 @@
       ]
     },
     {
-      "Route": "images/NoBrand/4.jpg",
-      "AssetFile": "images/NoBrand/4.jpg",
+      "Route": "images/NoBrand/nobrand4.jpg",
+      "AssetFile": "images/NoBrand/nobrand4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2500,8 +2500,8 @@
       ]
     },
     {
-      "Route": "images/NoBrand/4.p5jh598ssk.jpg",
-      "AssetFile": "images/NoBrand/4.jpg",
+      "Route": "images/NoBrand/nobrand4.p5jh598ssk.jpg",
+      "AssetFile": "images/NoBrand/nobrand4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2540,13 +2540,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/NoBrand/4.jpg"
+          "Value": "images/NoBrand/nobrand4.jpg"
         }
       ]
     },
     {
-      "Route": "images/PolliPots/1.jpg",
-      "AssetFile": "images/PolliPots/1.jpg",
+      "Route": "images/PolliPots/pollipots1.jpg",
+      "AssetFile": "images/PolliPots/pollipots1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2582,8 +2582,8 @@
       ]
     },
     {
-      "Route": "images/PolliPots/1.o2cwljnewc.jpg",
-      "AssetFile": "images/PolliPots/1.jpg",
+      "Route": "images/PolliPots/pollipots1.o2cwljnewc.jpg",
+      "AssetFile": "images/PolliPots/pollipots1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2622,13 +2622,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/PolliPots/1.jpg"
+          "Value": "images/PolliPots/pollipots1.jpg"
         }
       ]
     },
     {
-      "Route": "images/PolliPots/2.72oa4zt5ex.jpg",
-      "AssetFile": "images/PolliPots/2.jpg",
+      "Route": "images/PolliPots/pollipots2.72oa4zt5ex.jpg",
+      "AssetFile": "images/PolliPots/pollipots2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2667,13 +2667,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/PolliPots/2.jpg"
+          "Value": "images/PolliPots/pollipots2.jpg"
         }
       ]
     },
     {
-      "Route": "images/PolliPots/2.jpg",
-      "AssetFile": "images/PolliPots/2.jpg",
+      "Route": "images/PolliPots/pollipots2.jpg",
+      "AssetFile": "images/PolliPots/pollipots2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2709,8 +2709,8 @@
       ]
     },
     {
-      "Route": "images/PolliPots/3.4d6a09d03s.jpg",
-      "AssetFile": "images/PolliPots/3.jpg",
+      "Route": "images/PolliPots/pollipots3.4d6a09d03s.jpg",
+      "AssetFile": "images/PolliPots/pollipots3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2749,13 +2749,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/PolliPots/3.jpg"
+          "Value": "images/PolliPots/pollipots3.jpg"
         }
       ]
     },
     {
-      "Route": "images/PolliPots/3.jpg",
-      "AssetFile": "images/PolliPots/3.jpg",
+      "Route": "images/PolliPots/pollipots3.jpg",
+      "AssetFile": "images/PolliPots/pollipots3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2791,8 +2791,8 @@
       ]
     },
     {
-      "Route": "images/PolliPots/4.jpg",
-      "AssetFile": "images/PolliPots/4.jpg",
+      "Route": "images/PolliPots/pollipots4.jpg",
+      "AssetFile": "images/PolliPots/pollipots4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2828,8 +2828,8 @@
       ]
     },
     {
-      "Route": "images/PolliPots/4.yztwazjt1l.jpg",
-      "AssetFile": "images/PolliPots/4.jpg",
+      "Route": "images/PolliPots/pollipots4.yztwazjt1l.jpg",
+      "AssetFile": "images/PolliPots/pollipots4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2868,7 +2868,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/PolliPots/4.jpg"
+          "Value": "images/PolliPots/pollipots4.jpg"
         }
       ]
     },
@@ -8363,6 +8363,88 @@
         {
           "Name": "label",
           "Value": "lib/jquery/dist/jquery.js"
+        }
+      ]
+    },
+    {
+      "Route": "media/products/d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.0n6kyzh1zp.jpg",
+      "AssetFile": "media/products/d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZIPw/di8oUieFEN2oL2fnjjTjPMelJ3DZcatJ0YsFX8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 16:56:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0n6kyzh1zp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZIPw/di8oUieFEN2oL2fnjjTjPMelJ3DZcatJ0YsFX8="
+        },
+        {
+          "Name": "label",
+          "Value": "media/products/d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "media/products/d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg",
+      "AssetFile": "media/products/d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZIPw/di8oUieFEN2oL2fnjjTjPMelJ3DZcatJ0YsFX8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 16:56:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZIPw/di8oUieFEN2oL2fnjjTjPMelJ3DZcatJ0YsFX8="
         }
       ]
     }

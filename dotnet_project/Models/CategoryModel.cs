@@ -13,9 +13,6 @@ namespace dotnet_project.Models
         [Required]
         public string Slug { get; set; }
 
-        [Required, MinLength(4, ErrorMessage = "Please enter the description.")]
-        public string Description { get; set; }
-
         public int Status { get; set; }
     }
 }

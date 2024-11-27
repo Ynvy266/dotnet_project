@@ -45,6 +45,7 @@ namespace dotnet_project.Controllers
 
             HttpContext.Session.SetJson("Cart", cart); //Save data to session "Cart".
 
+            TempData["success"] = "Successfully added the item to the cart!";
             return Redirect(Request.Headers["Referer"].ToString());
         }
 
