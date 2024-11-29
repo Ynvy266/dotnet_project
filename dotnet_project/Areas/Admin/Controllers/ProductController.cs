@@ -101,7 +101,7 @@ namespace dotnet_project.Areas.Admin.Controllers
 
             if (ModelState.IsValid)
             {
-                product.Slug = product.Name.Replace(" ", "-");
+                product.Slug = product.Name.Replace(" ", "+");
                 var slug = await _dataContext.Products.FirstOrDefaultAsync(p => p.Slug == product.Slug); //Find product by slug
                 if (slug != null)
                 {
@@ -157,7 +157,7 @@ namespace dotnet_project.Areas.Admin.Controllers
             }
             _dataContext.Products.Remove(product);
             await _dataContext.SaveChangesAsync();
-            TempData["error"] = "Successfully deleted the product!";
+            TempData["success"] = "Successfully deleted the product!";
             return RedirectToAction("Index");
         }
     }

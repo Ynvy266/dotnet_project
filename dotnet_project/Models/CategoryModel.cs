@@ -7,10 +7,9 @@ namespace dotnet_project.Models
         [Key]
         public int Id { get; set; }
 
-        [Required, MinLength(4, ErrorMessage = "Please enter the category name.")]
+        [Required(ErrorMessage = "The name field is required.")]
         public string Name { get; set; }
 
-        [Required]
         public string Slug { get; set; }
 
         public int Status { get; set; }

@@ -409,10 +409,6 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\media\\products\\d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg"
-    },
-    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.dotnet_project.props",
       "PackagePath": "build\\dotnet_project.props"
     },

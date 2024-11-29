@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4j1zy2lkbzHSwL62CzXf5B79Kb2SoAep2cKQAQ6NiG0=",
+  "Hash": "YgjAtxgLq9W1utY7WSL3tbtTTS2c53KAXVW0E4tvU3o=",
   "Source": "dotnet_project",
   "BasePath": "_content/dotnet_project",
   "Mode": "Default",
@@ -2178,27 +2178,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\media\\products\\d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg",
-      "SourceId": "dotnet_project",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
-      "BasePath": "_content/dotnet_project",
-      "RelativePath": "media/products/d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "0n6kyzh1zp",
-      "Integrity": "ZIPw/di8oUieFEN2oL2fnjjTjPMelJ3DZcatJ0YsFX8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\media\\products\\d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg"
     }
   ],
   "Endpoints": [
@@ -10645,88 +10624,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-aBc/n/nO9esvq0e80G57lEYLonvE5dKKUgoozaiVfLM="
-        }
-      ]
-    },
-    {
-      "Route": "media/products/d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.0n6kyzh1zp.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\media\\products\\d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "50131"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZIPw/di8oUieFEN2oL2fnjjTjPMelJ3DZcatJ0YsFX8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 16:56:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0n6kyzh1zp"
-        },
-        {
-          "Name": "label",
-          "Value": "media/products/d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZIPw/di8oUieFEN2oL2fnjjTjPMelJ3DZcatJ0YsFX8="
-        }
-      ]
-    },
-    {
-      "Route": "media/products/d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\media\\products\\d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "50131"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZIPw/di8oUieFEN2oL2fnjjTjPMelJ3DZcatJ0YsFX8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 16:56:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZIPw/di8oUieFEN2oL2fnjjTjPMelJ3DZcatJ0YsFX8="
         }
       ]
     }

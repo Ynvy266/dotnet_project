@@ -99,4 +99,3 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-wwwroot\media\products\d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg

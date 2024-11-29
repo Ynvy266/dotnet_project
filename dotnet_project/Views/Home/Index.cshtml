@@ -19,8 +19,6 @@
 								<img src="~/media/products/@item.Image" alt="@item.Name" width="100%" />
 								<h2>$@item.Price</h2>
 								<p>@item.Name</p>
-								@* <p>Category: @item.Category.Name</p> *@
-								@* <p>Brand: @item.Brand.Name</p> *@
 							</div>
 						</a>
 						<a class="btn btn-default add-to-cart" asp-action="Add" asp-controller="Cart" asp-route-Id="@item.Id"><i class="fa fa-shopping-cart"></i>Add to cart</a>

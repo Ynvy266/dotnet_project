@@ -1836,23 +1836,5 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>dotnet_project</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/dotnet_project</BasePath>
-      <RelativePath>media/products/d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0n6kyzh1zp</Fingerprint>
-      <Integrity>ZIPw/di8oUieFEN2oL2fnjjTjPMelJ3DZcatJ0YsFX8=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\d4b1aa70-0e27-46d8-b72b-661d2201169c_hanselmann7.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
   </ItemGroup>
 </Project>
