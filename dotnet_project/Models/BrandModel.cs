@@ -7,7 +7,7 @@ namespace dotnet_project.Models
         [Key]
         public int Id { get; set; }
 
-        [Required, MinLength(4, ErrorMessage = "Please enter the brand name.")]
+        [Required(ErrorMessage = "The name field is required.")]
         public string Name { get; set; }
 
         public string Slug { get; set; }

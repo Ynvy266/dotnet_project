@@ -33,6 +33,7 @@ wwwroot\images\PolliPots\pollipots1.jpg
 wwwroot\images\PolliPots\pollipots2.jpg
 wwwroot\images\PolliPots\pollipots3.jpg
 wwwroot\images\PolliPots\pollipots4.jpg
+wwwroot\js\Admin\site.js
 wwwroot\js\bootstrap.min.js
 wwwroot\js\contact.js
 wwwroot\js\gmaps.js

@@ -9,14 +9,14 @@ namespace dotnet_project.Models
         [Key]
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Please enter the product name.")]
+        [Required(ErrorMessage = "The name field is required.")]
         public string Name { get; set; }
 
-        [Required, MinLength(4, ErrorMessage = "Please enter the description.")]
+        [Required(ErrorMessage = "The description field is required.")]
         public string Description { get; set; }
         public string Slug { get; set; }
 
-        [Required(ErrorMessage = "Please enter the product price.")]
+        [Required(ErrorMessage = "The price field is required.")]
         [Range(0.01, double.MaxValue)]
         [Column(TypeName = "decimal(8, 2)")]
         public decimal Price { get; set; }
@@ -33,6 +33,7 @@ namespace dotnet_project.Models
 
         [NotMapped]
         [FileExtension]
+        [Required(ErrorMessage = "The image field is required.")]
         public IFormFile ImageUpload { get; set; }
     }
 }

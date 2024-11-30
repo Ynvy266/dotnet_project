@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\areas\\admin\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\areas\\admin\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\wwwroot\\js\\admin\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\wwwroot\\js\\admin\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,13 +56,78 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "RelativeDocumentMoniker": "dotnet_project\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "RelativeToolTip": "dotnet_project\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T16:37:25.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "dotnet_project\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "dotnet_project\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Category\\Index.cshtml*",
+              "RelativeToolTip": "dotnet_project\\Areas\\Admin\\Views\\Category\\Index.cshtml*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T18:40:01.411Z",
+              "WhenOpened": "2024-11-30T16:37:15.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "dotnet_project\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "dotnet_project\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAABsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T16:33:06.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "dotnet_project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "dotnet_project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAvwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T16:18:28.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "dotnet_project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Product\\Index.cshtml*",
+              "RelativeToolTip": "dotnet_project\\Areas\\Admin\\Views\\Product\\Index.cshtml*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T16:32:55.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\js\\Admin\\site.js",
+              "RelativeDocumentMoniker": "dotnet_project\\wwwroot\\js\\Admin\\site.js",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\js\\Admin\\site.js",
+              "RelativeToolTip": "dotnet_project\\wwwroot\\js\\Admin\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-30T16:20:00.59Z",
               "EditorCaption": ""
             }
           ]

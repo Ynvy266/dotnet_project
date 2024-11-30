@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\wwwroot\\js\\admin\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\wwwroot\\js\\admin\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,15 +38,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\js\\Admin\\site.js",
+              "RelativeDocumentMoniker": "dotnet_project\\wwwroot\\js\\Admin\\site.js",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\js\\Admin\\site.js",
+              "RelativeToolTip": "dotnet_project\\wwwroot\\js\\Admin\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-30T16:20:00.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "dotnet_project\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "dotnet_project\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "dotnet_project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "dotnet_project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAvwBsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T18:40:01.411Z",
+              "WhenOpened": "2024-11-30T16:18:28.202Z",
               "EditorCaption": ""
             }
           ]

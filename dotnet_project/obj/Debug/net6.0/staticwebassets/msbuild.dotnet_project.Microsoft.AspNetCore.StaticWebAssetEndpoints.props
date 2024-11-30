@@ -432,6 +432,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yztwazjt1l"},{"Name":"integrity","Value":"sha256-3oWsUwAEy/BXfMVLLbNQvB0ojYbN2goHZNzdgnRugB4="},{"Name":"label","Value":"_content/dotnet_project/images/PolliPots/pollipots4.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"39266"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00223oWsUwAEy/BXfMVLLbNQvB0ojYbN2goHZNzdgnRugB4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 Nov 2024 15:40:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/dotnet_project/js/Admin/site.2qf1wd7m0u.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Admin\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2qf1wd7m0u"},{"Name":"integrity","Value":"sha256-JpbVdlBhMWrnaWm6FGFNw\u002Bw1voEMue3Pp6pyv3/l/kY="},{"Name":"label","Value":"_content/dotnet_project/js/Admin/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"661"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JpbVdlBhMWrnaWm6FGFNw\u002Bw1voEMue3Pp6pyv3/l/kY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 30 Nov 2024 16:12:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/dotnet_project/js/Admin/site.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Admin\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JpbVdlBhMWrnaWm6FGFNw\u002Bw1voEMue3Pp6pyv3/l/kY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"661"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JpbVdlBhMWrnaWm6FGFNw\u002Bw1voEMue3Pp6pyv3/l/kY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 30 Nov 2024 16:12:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/dotnet_project/js/bootstrap.min.ckio6tdysc.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.min.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

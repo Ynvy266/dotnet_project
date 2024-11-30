@@ -145,6 +145,10 @@
       "PackagePath": "staticwebassets\\images\\gallery1.jpg"
     },
     {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\js\\Admin\\site.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\site.js"
+    },
+    {
       "Id": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YgjAtxgLq9W1utY7WSL3tbtTTS2c53KAXVW0E4tvU3o=",
+  "Hash": "CrIdJeE9CyfAxyYWydczn2o0gMrlc3VHdGDbHBHp+5k=",
   "Source": "dotnet_project",
   "BasePath": "_content/dotnet_project",
   "Mode": "Default",
@@ -792,6 +792,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\PolliPots\\pollipots4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\js\\Admin\\site.js",
+      "SourceId": "dotnet_project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
+      "BasePath": "_content/dotnet_project",
+      "RelativePath": "js/Admin/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2qf1wd7m0u",
+      "Integrity": "JpbVdlBhMWrnaWm6FGFNw+w1voEMue3Pp6pyv3/l/kY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Admin\\site.js"
     },
     {
       "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\js\\bootstrap.min.js",
@@ -5212,6 +5233,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-3oWsUwAEy/BXfMVLLbNQvB0ojYbN2goHZNzdgnRugB4="
+        }
+      ]
+    },
+    {
+      "Route": "js/Admin/site.2qf1wd7m0u.js",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\js\\Admin\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JpbVdlBhMWrnaWm6FGFNw+w1voEMue3Pp6pyv3/l/kY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 30 Nov 2024 16:12:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2qf1wd7m0u"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Admin/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JpbVdlBhMWrnaWm6FGFNw+w1voEMue3Pp6pyv3/l/kY="
+        }
+      ]
+    },
+    {
+      "Route": "js/Admin/site.js",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\js\\Admin\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JpbVdlBhMWrnaWm6FGFNw+w1voEMue3Pp6pyv3/l/kY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 30 Nov 2024 16:12:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JpbVdlBhMWrnaWm6FGFNw+w1voEMue3Pp6pyv3/l/kY="
         }
       ]
     },

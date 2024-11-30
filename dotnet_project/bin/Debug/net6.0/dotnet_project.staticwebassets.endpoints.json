@@ -2955,6 +2955,88 @@
       ]
     },
     {
+      "Route": "js/Admin/site.2qf1wd7m0u.js",
+      "AssetFile": "js/Admin/site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JpbVdlBhMWrnaWm6FGFNw+w1voEMue3Pp6pyv3/l/kY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 30 Nov 2024 16:12:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2qf1wd7m0u"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JpbVdlBhMWrnaWm6FGFNw+w1voEMue3Pp6pyv3/l/kY="
+        },
+        {
+          "Name": "label",
+          "Value": "js/Admin/site.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/Admin/site.js",
+      "AssetFile": "js/Admin/site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JpbVdlBhMWrnaWm6FGFNw+w1voEMue3Pp6pyv3/l/kY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 30 Nov 2024 16:12:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JpbVdlBhMWrnaWm6FGFNw+w1voEMue3Pp6pyv3/l/kY="
+        }
+      ]
+    },
+    {
       "Route": "js/bootstrap.min.ckio6tdysc.js",
       "AssetFile": "js/bootstrap.min.js",
       "Selectors": [],
