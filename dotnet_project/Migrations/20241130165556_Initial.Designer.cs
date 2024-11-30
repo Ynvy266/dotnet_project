@@ -11,7 +11,7 @@ using dotnet_project.Repository;
 namespace dotnet_project.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20241127133858_Initial")]
+    [Migration("20241130165556_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,7 +36,6 @@ namespace dotnet_project.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Slug")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Status")
@@ -60,7 +59,6 @@ namespace dotnet_project.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Slug")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Status")
@@ -90,7 +88,6 @@ namespace dotnet_project.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
@@ -101,7 +98,6 @@ namespace dotnet_project.Migrations
                         .HasColumnType("decimal(8,2)");
 
                     b.Property<string>("Slug")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

@@ -1,9 +1,9 @@
-﻿using dotnet_project.Models;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-
+using dotnet_project.Models;
 namespace dotnet_project.Repository
 {
-    public class DataContext : DbContext
+    public class DataContext : IdentityDbContext<AspUserModel>
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         { 
