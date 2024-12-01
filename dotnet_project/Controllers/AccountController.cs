@@ -16,22 +16,22 @@ namespace dotnet_project.Controllers
 
         public IActionResult Login(string returnUrl)
         {
-            return View(new LoginViewModel { ReturnURL = returnUrl});
+            return View(new LoginViewModel { ReturnUrl = returnUrl});
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login(LoginViewModel login)
+        public async Task<IActionResult> Login(LoginViewModel loginVM)
         {
             if (ModelState.IsValid)
             {
-                Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(login.Email, login.Password, false, false);
+                Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(loginVM.Username, loginVM.Password, false, false);
                 if (result.Succeeded)
                 {
-                    return Redirect(login.ReturnURL ?? "/");
+                    return Redirect(loginVM.ReturnUrl ?? "/");
                 }
                 ModelState.AddModelError("", "Email or password does not match.");
             }
-            return View(login);
+            return View(loginVM);
         }
 
         public IActionResult Create()
@@ -57,6 +57,12 @@ namespace dotnet_project.Controllers
                 }
             }
             return View(user);
+        }
+
+        public async Task<IActionResult> Logout(string returnUrl = "/")
+        {
+            await _signInManager.SignOutAsync();
+            return Redirect(returnUrl);
         }
     }
 }

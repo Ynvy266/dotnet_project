@@ -1,5 +1,6 @@
 ﻿using dotnet_project.Models;
 using dotnet_project.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +9,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 namespace dotnet_project.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class ProductController : Controller
     {
         private readonly DataContext _dataContext;

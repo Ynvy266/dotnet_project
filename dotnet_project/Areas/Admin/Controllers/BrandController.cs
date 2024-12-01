@@ -1,11 +1,13 @@
 ﻿using dotnet_project.Models;
 using dotnet_project.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace dotnet_project.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class BrandController : Controller
     {
         private readonly DataContext _dataContext;

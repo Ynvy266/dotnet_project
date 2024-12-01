@@ -6,13 +6,13 @@ namespace dotnet_project.Models.ViewModels
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "The email field is required."), EmailAddress]
-        public string Email { get; set; }
+        [Required(ErrorMessage = "The username field is required.")]
+        public string Username { get; set; }
 
         [DataType(DataType.Password), Required(ErrorMessage = "The password field is required.")]
         //password encryption
         public string Password { get; set; }
 
-        public string ReturnURL { get; set; }
+        public string ReturnUrl { get; set; }
     }
 }
