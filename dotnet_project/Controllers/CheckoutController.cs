@@ -33,9 +33,21 @@ namespace dotnet_project.Controllers
                 orderItem.CreatedDate = DateTime.Now;
                 _dataContext.Add(orderItem);
                 _dataContext.SaveChanges();
-                TempData["success"] = "Order has been saved.";
+                List<CartItemModel> cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
+                foreach (var cartItem in cart)
+                {
+                    var orderdetails = new OrderDetailsModel();
+                    orderdetails.UserName = userEmail;
+                    orderdetails.OrderCode = orderCode;
+                    orderdetails.ProductId = cartItem.ProductId;
+                    orderdetails.Price = cartItem.Price;
+                    orderdetails.Quantity = cartItem.Quantity;
+                    _dataContext.Add(orderdetails);
+                    _dataContext.SaveChanges();
+                }
+                HttpContext.Session.Remove("Cart");
+                TempData["success"] = "Checkout successful! Please wait for your order to be approved.";
                 return RedirectToAction("Index", "Cart");
-
             }
             return View();
         }
