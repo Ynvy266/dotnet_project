@@ -1,0 +1,39 @@
+﻿@model IEnumerable<OrderDetailsModel>
+@{
+    ViewData["Title"] = "Order Details";
+}
+<h3>Order Details</h3>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Username</th>
+            <th scope="col">Order Code</th>
+            <th scope="col">Date</th>
+            <th scope="col">Status</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@item.Id</th>
+                <td>@item.UserName</td>
+                <td>@item.OrderCode</td>
+                @*@<td>
+                    @if (@item.Status == 1)
+                    {
+                        <span class="text text-success">New</span>
+                    }
+                    else
+                    {
+                        <span class="text text-danger">Confirmed</span>
+                    }
+                </td>*@
+            </tr>
+
+        }
+    </tbody>
+</table>
