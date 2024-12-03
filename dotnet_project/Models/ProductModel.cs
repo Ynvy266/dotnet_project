@@ -7,7 +7,7 @@ namespace dotnet_project.Models
     public class ProductModel
     {
         [Key]
-        public int Id { get; set; }
+        public long Id { get; set; }
 
         [Required(ErrorMessage = "The name field is required.")]
         public string Name { get; set; }

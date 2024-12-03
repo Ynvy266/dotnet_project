@@ -22,8 +22,16 @@ namespace dotnet_project.Areas.Admin.Controllers
 
         public async Task<IActionResult> ViewOrder(string ordercode)
         {
-            var detailsOrder = await _dataContext.OrderDetails.Include(o => o.Product).Where(o => o.OrderCode == ordercode).ToListAsync();
-            return View(await _dataContext.Orders.OrderByDescending(o => o.Id).ToListAsync());
+            //var detailsOrder = await _dataContext.OrderDetails.Include(o => o.Product).Where(o => o.OrderCode == ordercode).ToListAsync();
+            //return View(await _dataContext.Orders.OrderByDescending(o => o.Id).ToListAsync());
+
+            // Lấy chi tiết đơn hàng dựa trên ordercode
+            var detailsOrder = await _dataContext.OrderDetails
+                .Include(o => o.Product)
+                .Where(o => o.OrderCode == ordercode)
+                .ToListAsync();
+
+            return View(detailsOrder); // Trả về chi tiết đơn hàng cho view
         }
     }
 }

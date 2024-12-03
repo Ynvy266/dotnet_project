@@ -12,8 +12,8 @@ using dotnet_project.Repository;
 namespace dotnet_project.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20241130180902_Identity")]
-    partial class Identity
+    [Migration("20241203155756_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -24,7 +24,7 @@ namespace dotnet_project.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("dotnet_project.Models.AppUserModel", b =>
+            modelBuilder.Entity("dotnet_project.Models.AspUserModel", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -135,13 +135,68 @@ namespace dotnet_project.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("dotnet_project.Models.ProductModel", b =>
+            modelBuilder.Entity("dotnet_project.Models.OrderDetailsModel", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("OrderCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<long>("ProductId")
+                        .HasColumnType("bigint");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("OrderDetails");
+                });
+
+            modelBuilder.Entity("dotnet_project.Models.OrderModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("OrderCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("dotnet_project.Models.ProductModel", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
 
                     b.Property<int>("BrandId")
                         .HasColumnType("int");
@@ -308,6 +363,17 @@ namespace dotnet_project.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("dotnet_project.Models.OrderDetailsModel", b =>
+                {
+                    b.HasOne("dotnet_project.Models.ProductModel", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("dotnet_project.Models.ProductModel", b =>
                 {
                     b.HasOne("dotnet_project.Models.BrandModel", "Brand")
@@ -338,7 +404,7 @@ namespace dotnet_project.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("dotnet_project.Models.AppUserModel", null)
+                    b.HasOne("dotnet_project.Models.AspUserModel", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -347,7 +413,7 @@ namespace dotnet_project.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("dotnet_project.Models.AppUserModel", null)
+                    b.HasOne("dotnet_project.Models.AspUserModel", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -362,7 +428,7 @@ namespace dotnet_project.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("dotnet_project.Models.AppUserModel", null)
+                    b.HasOne("dotnet_project.Models.AspUserModel", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -371,7 +437,7 @@ namespace dotnet_project.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("dotnet_project.Models.AppUserModel", null)
+                    b.HasOne("dotnet_project.Models.AspUserModel", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

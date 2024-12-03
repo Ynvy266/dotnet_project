@@ -158,6 +158,8 @@ namespace dotnet_project.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ProductId");
+
                     b.ToTable("OrderDetails");
                 });
 
@@ -188,11 +190,11 @@ namespace dotnet_project.Migrations
 
             modelBuilder.Entity("dotnet_project.Models.ProductModel", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("bigint");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
 
                     b.Property<int>("BrandId")
                         .HasColumnType("int");
@@ -357,6 +359,17 @@ namespace dotnet_project.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("dotnet_project.Models.OrderDetailsModel", b =>
+                {
+                    b.HasOne("dotnet_project.Models.ProductModel", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("dotnet_project.Models.ProductModel", b =>

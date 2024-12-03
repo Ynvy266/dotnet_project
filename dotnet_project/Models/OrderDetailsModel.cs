@@ -10,7 +10,7 @@ namespace dotnet_project.Models
         public long ProductId { get; set; }
         public decimal Price { get; set; }
         public int Quantity { get; set; }
-        //[ForeignKey("ProductId")]
+        [ForeignKey("ProductId")]
         public ProductModel Product { get; set; }
     }
 }
