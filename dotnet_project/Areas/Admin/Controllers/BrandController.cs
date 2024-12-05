@@ -15,9 +15,34 @@ namespace dotnet_project.Areas.Admin.Controllers
         {
             _dataContext = context;
         }
-        public async Task<IActionResult> Index()
+        //public async Task<IActionResult> Index()
+        //{
+        //    return View(await _dataContext.Brands.OrderByDescending(p => p.Id).ToListAsync());
+        //}
+
+        //[Route("Index")]
+        public async Task<IActionResult> Index(int pg = 1)
         {
-            return View(await _dataContext.Brands.OrderByDescending(p => p.Id).ToListAsync());
+            List<BrandModel> brand = _dataContext.Brands.ToList(); //33 datas
+
+
+            const int pageSize = 10; //10 items/trang
+
+            if (pg < 1) //page < 1;
+            {
+                pg = 1; //page ==1
+            }
+            int recsCount = brand.Count(); //33 items;
+
+            var pager = new Pagination(recsCount, pg, pageSize);
+
+            int recSkip = (pg - 1) * pageSize; //(3 - 1) * 10; 
+
+            var data = brand.Skip(recSkip).Take(pager.PageSize).ToList();
+
+            ViewBag.Pager = pager;
+
+            return View(data);
         }
 
         [HttpGet]
@@ -33,7 +58,7 @@ namespace dotnet_project.Areas.Admin.Controllers
             if (ModelState.IsValid)
             {
                 brand.Slug = brand.Name.Replace(" ", "+");
-                var slug = await _dataContext.Categories.FirstOrDefaultAsync(p => p.Slug == brand.Slug);
+                var slug = await _dataContext.Brands.FirstOrDefaultAsync(p => p.Slug == brand.Slug);
                 if (slug != null)
                 {
                     ModelState.AddModelError("", "The brand is already available in the database.");
@@ -75,7 +100,7 @@ namespace dotnet_project.Areas.Admin.Controllers
             if (ModelState.IsValid)
             {
                 brand.Slug = brand.Name.Replace(" ", "+");
-                var slug = await _dataContext.Categories.FirstOrDefaultAsync(p => p.Slug == brand.Slug);
+                var slug = await _dataContext.Brands.FirstOrDefaultAsync(p => p.Slug == brand.Slug);
                 if (slug != null)
                 {
                     ModelState.AddModelError("", "The brand is already available in the database.");
