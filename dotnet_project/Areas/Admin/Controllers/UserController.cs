@@ -1,4 +1,5 @@
 ﻿using dotnet_project.Models;
+using dotnet_project.Repository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -10,10 +11,12 @@ namespace dotnet_project.Areas.Admin.Controllers
     [Route("Admin/User")]
     public class UserController : Controller
     {
+        private readonly DataContext _dataContext;
         private readonly UserManager<AspUserModel> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
-        public UserController(UserManager<AspUserModel> userManager, RoleManager<IdentityRole> roleManager)
+        public UserController(DataContext context, UserManager<AspUserModel> userManager, RoleManager<IdentityRole> roleManager)
         {
+            _dataContext = context;
             _userManager = userManager;
             _roleManager = roleManager;
         }
@@ -22,7 +25,12 @@ namespace dotnet_project.Areas.Admin.Controllers
         [Route("Index")]
         public async Task<IActionResult> Index()
         {
-            return View(await _userManager.Users.OrderByDescending(p => p.Id).ToListAsync());
+            var userWithRole = await (from u in _dataContext.Users
+                                      join ur in _dataContext.UserRoles on u.Id equals ur.UserId
+                                      join r in _dataContext.Roles on ur.RoleId equals r.Id
+                                      select new { User = u, RoleName = r.Name })
+                                      .ToListAsync();
+            return View(userWithRole);
         }
 
         [HttpGet]
@@ -44,6 +52,15 @@ namespace dotnet_project.Areas.Admin.Controllers
                 var result = await _userManager.CreateAsync(user, user.PasswordHash);
                 if (result.Succeeded)
                 {
+                    var createUser = await _userManager.FindByEmailAsync(user.Email);
+                    var userId = createUser.Id;
+                    var role = _roleManager.FindByIdAsync(user.RoleId);
+
+                    var addRole = await _userManager.AddToRoleAsync(createUser, role.Result.Name);
+                    if (!addRole.Succeeded) 
+                    {
+                        AddIdentityErrors(result);
+                    }
                     return RedirectToAction("Index", "User");
                 }
                 else
