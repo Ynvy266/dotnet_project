@@ -7,6 +7,7 @@
 	<meta name="author" content="">
 	<title>@ViewData["title"] | Admin</title>
 	<link href="~/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.min.css" rel="stylesheet">
 	<link href="~/css/font-awesome.min.css" rel="stylesheet">
 	<link href="~/css/prettyPhoto.css" rel="stylesheet">
 	<link href="~/css/price-range.css" rel="stylesheet">
@@ -31,7 +32,6 @@
 			<!--header_top-->
 			<div class="container">
 				<div class="row">
-
 				</div>
 			</div>
 		</div><!--/header_top-->
@@ -45,8 +45,6 @@
 							<a href="index.html"><img src="images/home/logo.png" alt="" /></a>
 						</div>
 						<div class="btn-group pull-right">
-
-							
 						</div>
 					</div>
 
@@ -99,7 +97,8 @@
 		</div>
 	</section>
 
-	<footer id="footer"><!--Footer-->
+	<footer id="footer">
+		<!--Footer-->
 
 	</footer><!--/Footer-->
 
@@ -110,6 +109,14 @@
 	<script src="~/js/jquery.prettyPhoto.js"></script>
 	<script src="~/js/main.js"></script>
 	<script src="~/js/Admin/site.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.all.min.js"></script>
+	<script>
+		$(function() {
+			var message = '@TempData["Success"]';
+			if (message != '')
+				Swal.fire(message);
+		});
+	</script>
 	@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
