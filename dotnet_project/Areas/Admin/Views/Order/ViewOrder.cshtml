@@ -1,6 +1,8 @@
 ﻿@model IEnumerable<OrderDetailsModel>
 @{
     ViewData["Title"] = "Order Details";
+    decimal total = 0; //Store total amount
+    decimal subtotal = 0;
 }
 <h3>Order Details</h3>
 
@@ -8,32 +10,70 @@
     <thead>
         <tr>
             <th scope="col">#</th>
-            <th scope="col">Username</th>
             <th scope="col">Order Code</th>
-            <th scope="col">Date</th>
-            <th scope="col">Status</th>
-            <th scope="col">Action</th>
+            <th scope="col">Username</th>
+            <th scope="col">Product</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Subtotal</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
+            subtotal = item.Quantity * item.Price;
+            total += subtotal;
             <tr>
+                <input type="hidden" asp-for="@item.OrderCode" class="getId"/>
                 <th scope="row">@item.Id</th>
-                <td>@item.UserName</td>
                 <td>@item.OrderCode</td>
-                @*@<td>
-                    @if (@item.Status == 1)
-                    {
-                        <span class="text text-success">New</span>
-                    }
-                    else
-                    {
-                        <span class="text text-danger">Confirmed</span>
-                    }
-                </td>*@
+                <td>@item.UserName</td>
+                <td>@item.Product.Name</td>
+                <td>$@item.Price</td>
+                <td>@item.Quantity</td>
+                <td>@subtotal.ToString("C")</td>
             </tr>
-
         }
+        <tr>
+            <th colspan="5">Total:</th>
+            <td>@total.ToString("C")</td>
+            <td><select class="form-control select-update-order">
+                <option value="1">New</option>
+                <option value="0">Confirm</option>
+            </select></td>
+        </tr>
     </tbody>
 </table>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function() {
+            $('.select-update-order').change(function() {
+                var status = $(this).val();
+                var ordercode = $('.getId').val();
+                // alert(status);
+                // alert(ordercode);
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("UpdateOrder")",
+                    data: { status: status, ordercode: ordercode }, //send data to the server
+                
+                    success: function(result) {
+                        //Handle successful update
+                        if (result.success) {
+                            //Update UI or show success message
+                            Swal.fire("Update successfully!");
+                        } else {
+                            //Handle error
+                            Swal.fire("Update failed: " + result.message);
+                        }
+                    },
+                    error: function (req, status, error) {
+                        console.error("Error updating order: ", error);
+                    }
+                });
+            });
+        });
+    </script>
+}
