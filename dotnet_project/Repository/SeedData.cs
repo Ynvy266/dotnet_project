@@ -7,7 +7,7 @@ namespace dotnet_project.Repository
     {
         public static void SeedingData(DataContext _context)
         {
-            _context.Database.Migrate();
+            //_context.Database.Migrate();
             if(!_context.Products.Any())
             {
                 CategoryModel bowl = new CategoryModel { Name = "Bowl", Slug = "bowl", Status = 1 };
