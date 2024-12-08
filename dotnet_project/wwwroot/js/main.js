@@ -28,3 +28,8 @@ $(document).ready(function(){
 		});
 	});
 });
+function home_redirect() {
+	// alert('Home');
+	window.location = "Shared/_Layout.cshtml";//chuyen huong den trang chu
+
+}

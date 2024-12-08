@@ -3061,23 +3061,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nguye\\.nuget\\packages\\": {},
+    "C:\\Users\\vithi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\dotnet_project.csproj",
+      "projectUniqueName": "C:\\Users\\vithi\\.net\\dotnet_project\\dotnet_project\\dotnet_project.csproj",
       "projectName": "dotnet_project",
-      "projectPath": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\dotnet_project.csproj",
-      "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\obj\\",
+      "projectPath": "C:\\Users\\vithi\\.net\\dotnet_project\\dotnet_project\\dotnet_project.csproj",
+      "packagesPath": "C:\\Users\\vithi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vithi\\.net\\dotnet_project\\dotnet_project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vithi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3098,13 +3098,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net6.0": {
@@ -3162,7 +3156,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

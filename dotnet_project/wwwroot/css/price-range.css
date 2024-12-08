@@ -6,6 +6,11 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  *
  */
+.section3 {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
 .slider {
   display: inline-block;
   vertical-align: middle;
