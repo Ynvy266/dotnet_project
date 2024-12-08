@@ -56,7 +56,7 @@ namespace dotnet_project.Controllers
 
                 await _emailSender.SendEmailAsync(receiver, subject, message);
                 TempData["success"] = "Checkout successful! Please wait for your order to be approved.";
-                return RedirectToAction("Index", "Cart");
+                return RedirectToAction("History", "Account");
             }
             return View();
         }

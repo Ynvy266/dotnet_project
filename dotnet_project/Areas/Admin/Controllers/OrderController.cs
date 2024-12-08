@@ -26,6 +26,12 @@ namespace dotnet_project.Areas.Admin.Controllers
                 .Include(o => o.Product)
                 .Where(o => o.OrderCode == ordercode)
                 .ToListAsync();
+
+            var order = _dataContext.Orders
+                .Where(o => o.OrderCode == ordercode).First();
+            //ViewBag.ShippingCost = order.ShippingCost;
+            ViewBag.Status = order.Status;
+            
             return View(detailsOrder);
         }
 
