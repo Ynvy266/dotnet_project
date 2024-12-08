@@ -1,5 +1,7 @@
-﻿using dotnet_project.Models;
+﻿using dotnet_project.Areas.Admin.Repository;
+using dotnet_project.Models;
 using dotnet_project.Models.ViewModels;
+using dotnet_project.Repository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,17 +11,27 @@ namespace dotnet_project.Controllers
     {
         private UserManager<AspUserModel> _userManager;
         private SignInManager<AspUserModel> _signInManager;
-        public AccountController(SignInManager<AspUserModel> signInManager, UserManager<AspUserModel> userManager) {
+        private readonly IEmailSender _emailSender;
+        private readonly DataContext _dataContext;
+
+        public AccountController(SignInManager<AspUserModel> signInManager,
+            UserManager<AspUserModel> userManager,
+            IEmailSender emailSender,
+            DataContext context)
+        {
             _signInManager = signInManager;
             _userManager = userManager;
+            _emailSender = emailSender;
+            _dataContext = context;
         }
 
         public IActionResult Login(string returnUrl)
         {
-            return View(new LoginViewModel { ReturnUrl = returnUrl});
+            return View(new LoginViewModel { ReturnUrl = returnUrl });
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginViewModel loginVM)
         {
             if (ModelState.IsValid)
@@ -27,9 +39,10 @@ namespace dotnet_project.Controllers
                 Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(loginVM.Username, loginVM.Password, false, false);
                 if (result.Succeeded)
                 {
+                    TempData["success"] = "Login Successfully!";
                     return Redirect(loginVM.ReturnUrl ?? "/");
                 }
-                ModelState.AddModelError("", "Email or password does not match.");
+                ModelState.AddModelError("", "Incorrect username or password.");
             }
             return View(loginVM);
         }
@@ -44,7 +57,7 @@ namespace dotnet_project.Controllers
         {
             if (ModelState.IsValid)
             {
-                AspUserModel newUser = new AspUserModel { UserName = user.Username, Email = user.Email};
+                AspUserModel newUser = new AspUserModel { UserName = user.Username, Email = user.Email };
                 IdentityResult result = await _userManager.CreateAsync(newUser, user.Password);
                 if (result.Succeeded)
                 {
@@ -63,6 +76,16 @@ namespace dotnet_project.Controllers
         {
             await _signInManager.SignOutAsync();
             return Redirect(returnUrl);
+        }
+
+        public async Task<IActionResult> ForgetPassword(string returnUrl)
+        {
+            return View();
+        }
+
+        public async Task<IActionResult> NewPassword(string returnUrl)
+        {
+            return View();
         }
     }
 }

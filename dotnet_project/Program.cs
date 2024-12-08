@@ -1,3 +1,4 @@
+using dotnet_project.Areas.Admin.Repository;
 using dotnet_project.Models;
 using dotnet_project.Repository;
 using Microsoft.AspNetCore.Identity;
@@ -10,6 +11,9 @@ builder.Services.AddDbContext<DataContext>(options =>
 {
     options.UseSqlServer(builder.Configuration["ConnectionString:ConnectedDb"]);
 });
+
+//Add Email Sender
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

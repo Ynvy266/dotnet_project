@@ -5,6 +5,7 @@ namespace dotnet_project.Models
     public class AspUserModel : IdentityUser
     {
         public string RoleId { get; set; }
+        public string Token { get; set; }
 
     }
 }

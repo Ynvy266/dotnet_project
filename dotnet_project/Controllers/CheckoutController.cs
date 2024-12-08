@@ -1,4 +1,5 @@
-﻿using dotnet_project.Models;
+﻿using dotnet_project.Areas.Admin.Repository;
+using dotnet_project.Models;
 using dotnet_project.Models.ViewModels;
 using dotnet_project.Repository;
 using Microsoft.AspNetCore.Identity;
@@ -10,10 +11,12 @@ namespace dotnet_project.Controllers
     public class CheckoutController : Controller
     {
         private readonly DataContext _dataContext;
+        private readonly IEmailSender _emailSender;
 
-        public CheckoutController(DataContext context)
+        public CheckoutController(DataContext context, IEmailSender emailSender)
         {
             _dataContext = context;
+            _emailSender = emailSender;
         }
 
         public async Task<IActionResult> Checkout()
@@ -46,6 +49,12 @@ namespace dotnet_project.Controllers
                     _dataContext.SaveChanges();
                 }
                 HttpContext.Session.Remove("Cart");
+                //Send email to confirm checkout
+                var receiver = "nguyenyenvy266@gmail.com";
+                var subject = "Order placed successfully!";
+                var message = "Order placed successfully!";
+
+                await _emailSender.SendEmailAsync(receiver, subject, message);
                 TempData["success"] = "Checkout successful! Please wait for your order to be approved.";
                 return RedirectToAction("Index", "Cart");
             }

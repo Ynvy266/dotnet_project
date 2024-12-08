@@ -6,6 +6,13 @@ wwwroot\css\prettyPhoto.css
 wwwroot\css\price-range.css
 wwwroot\css\responsive.css
 wwwroot\favicon.ico
+wwwroot\images\aboutus.png
+wwwroot\images\bg1.jpg
+wwwroot\images\bg2.jpg
+wwwroot\images\bg3.jpg
+wwwroot\images\bg4.jpg
+wwwroot\images\bg5.jpg
+wwwroot\images\bg6.jpg
 wwwroot\images\BobDinetz\bobdinetz1.jpg
 wwwroot\images\BobDinetz\bobdinetz10.jpg
 wwwroot\images\BobDinetz\bobdinetz2.jpg
@@ -16,6 +23,11 @@ wwwroot\images\BobDinetz\bobdinetz6.jpg
 wwwroot\images\BobDinetz\bobdinetz7.jpg
 wwwroot\images\BobDinetz\bobdinetz8.jpg
 wwwroot\images\BobDinetz\bobdinetz9.jpg
+wwwroot\images\fb\feedback1.png
+wwwroot\images\fb\feedback2.png
+wwwroot\images\fb\feedback3.png
+wwwroot\images\fb\feedback4.png
+wwwroot\images\ft1.jpg
 wwwroot\images\gallery1.jpg
 wwwroot\images\Hanselmann\hanselmann1.jpg
 wwwroot\images\Hanselmann\hanselmann2.jpg
@@ -29,6 +41,8 @@ wwwroot\images\NoBrand\nobrand1.jpg
 wwwroot\images\NoBrand\nobrand2.jpg
 wwwroot\images\NoBrand\nobrand3.jpg
 wwwroot\images\NoBrand\nobrand4.jpg
+wwwroot\images\Planttaby.png
+wwwroot\images\Planttaby1.png
 wwwroot\images\PolliPots\pollipots1.jpg
 wwwroot\images\PolliPots\pollipots2.jpg
 wwwroot\images\PolliPots\pollipots3.jpg
@@ -100,3 +114,4 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\media\products\0b46b52b-7456-44a6-992c-3bb2e71a8cbd_pollipots4.jpg
