@@ -21,7 +21,7 @@ namespace dotnet_project.Areas.Admin.Controllers
         //    return View(await _dataContext.Brands.OrderByDescending(p => p.Id).ToListAsync());
         //}
 
-        //[Route("Index")]
+        [Route("Index")]
         public async Task<IActionResult> Index(int pg = 1)
         {
             List<BrandModel> brand = _dataContext.Brands.ToList(); //33 datas
@@ -47,6 +47,7 @@ namespace dotnet_project.Areas.Admin.Controllers
         }
 
         [HttpGet]
+        [Route("Create")]
         public IActionResult Create()
         {
             return View();
@@ -54,6 +55,7 @@ namespace dotnet_project.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("Create")]
         public async Task<IActionResult> Create(BrandModel brand)
         {
             if (ModelState.IsValid)
@@ -88,6 +90,7 @@ namespace dotnet_project.Areas.Admin.Controllers
             return View(brand);
         }
 
+        [Route("Edit")]
         public async Task<IActionResult> Edit(int Id)
         {
             BrandModel brand = await _dataContext.Brands.FindAsync(Id);
@@ -96,6 +99,7 @@ namespace dotnet_project.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("Edit")]
         public async Task<IActionResult> Edit(BrandModel brand)
         {
             if (ModelState.IsValid)
@@ -130,6 +134,7 @@ namespace dotnet_project.Areas.Admin.Controllers
             return View(brand);
         }
 
+        [Route("Delete")]
         public async Task<IActionResult> Delete(int Id)
         {
             BrandModel brand = await _dataContext.Brands.FindAsync(Id);

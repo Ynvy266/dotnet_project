@@ -7,7 +7,11 @@
 	<meta name="author" content="">
 	<title>@ViewData["title"] | Admin</title>
 	<link href="~/css/bootstrap.min.css" rel="stylesheet">
+
 	<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.min.css" rel="stylesheet">
+	<link href="//cdn.datatables.net/2.1.8/css/dataTables.dataTables.min.css" rel="stylesheet">
+	<link href="https://cdn.datatables.net/buttons/3.2.0/css/buttons.dataTables.css" rel="stylesheet">
+	
 	<link href="~/css/font-awesome.min.css" rel="stylesheet">
 	<link href="~/css/prettyPhoto.css" rel="stylesheet">
 	<link href="~/css/price-range.css" rel="stylesheet">
@@ -67,12 +71,12 @@
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a asp-controller="Home" class="active">Home</a></li>
-								<li><a asp-controller="Product">Product</a></li>
-								<li><a asp-controller="Category">Category</a></li>
-								<li><a asp-controller="Brand">Brand</a></li>
-								<li><a asp-controller="Order">Order</a></li>
-								<li><a asp-controller="User">User</a></li>
+								@* <li><a asp-action="Index" asp-controller="Home" class="active">Home</a></li> *@
+								<li><a asp-action="Index" asp-controller="Product">Product</a></li>
+								<li><a asp-action="Index" asp-controller="Category">Category</a></li>
+								<li><a asp-action="Index" asp-controller="Brand">Brand</a></li>
+								<li><a asp-action="Index" asp-controller="Order">Order</a></li>
+								<li><a asp-action="Index" asp-controller="User">User</a></li>
 								<li><a asp-action="Index" asp-controller="Role">Role</a></li>
 							</ul>
 						</div>
@@ -110,11 +114,31 @@
 	<script src="~/js/main.js"></script>
 	<script src="~/js/Admin/site.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.all.min.js"></script>
+
+	<script src="//cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+	<script src="https://cdn.datatables.net/buttons/3.2.0/js/dataTables.buttons.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+	<script src="https://cdn.datatables.net/buttons/3.2.0/js/buttons.html5.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/3.2.0/js/buttons.print.min.js"></script>
+
 	<script>
 		$(function() {
 			var message = '@TempData["Success"]';
 			if (message != '')
 				Swal.fire(message);
+		});
+	</script>
+
+	<script>
+				let table = new DataTable('#myTable', {
+			layout: {
+				topStart: {
+					buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
+				}
+			}
 		});
 	</script>
 	@await RenderSectionAsync("Scripts", required: false)

@@ -1,5 +1,6 @@
 ﻿using dotnet_project.Repository;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace dotnet_project.Controllers
 {
@@ -12,7 +13,16 @@ namespace dotnet_project.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            return View();  
+        }
+
+        public async Task<IActionResult> Search(string searchItem)
+        {
+            var products = await _dataContext.Products
+               .Where(p => p.Name.Contains(searchItem) || p.Description.Contains(searchItem))
+               .ToListAsync();
+            ViewBag.Keyword = searchItem;
+            return View(products);
         }
 
         public async Task<IActionResult> Details(int Id)

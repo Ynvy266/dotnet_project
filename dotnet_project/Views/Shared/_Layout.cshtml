@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title>Home | E-Shopper</title>
+	<title>Home | Plantaby Pottery</title>
 	<link href="~/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
 	<link href="~/css/prettyPhoto.css" rel="stylesheet">
@@ -97,6 +97,7 @@
 									<li><a asp-controller="Home" asp-action="Wishlist"><i class="fa fa-heart"></i> Wishlist</a></li>
 									<li><a asp-controller="Home" asp-action="Compare"><i class="fa fa-star"></i> Compare</a></li>
 									<li><a asp-controller="Product" asp-action="Index" asp-area="Admin"><i class="fa fa-lock"></i> Admin CMS</a></li>
+									<li><a asp-controller="Account" asp-action="History"><i class="fa fa-clock-o"></i> History</a></li>
 									<li><a asp-controller="Account" asp-action="History"><i class="fa fa-user"></i> Account</a></li>
 									//@User.Identity.Name
 									<li><a asp-controller="Account" asp-action="Logout"><i class="fa fa-lock"></i> Logout</a></li>
@@ -150,12 +151,12 @@
 						</div>
 					</div>
 					<div class="col-sm-3">
-						<forn asp-controller="Product" asp-action="Search" method="post">
+						<form asp-controller="Product" asp-action="Search" method="post">
 							<div class="search_box pull-right">
 								<input type="text" placeholder="Search" name="searchItem"/>
 								<button class="btn btn-warning" type="submit">Search</button>
 							</div>
-						</forn>
+						</form>
 					</div>
 				</div>
 			</div>
