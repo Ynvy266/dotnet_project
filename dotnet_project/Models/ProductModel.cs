@@ -23,6 +23,10 @@ namespace dotnet_project.Models
 
         public string Image { get; set; } = "NoImage";
 
+        public int Quantity { get; set; }
+
+        public int Sold { get; set; }
+
         [Required, Range(1, int.MaxValue, ErrorMessage ="Please choose a brand.")]
         public int BrandId { get; set; }
         [Required, Range(1, int.MaxValue, ErrorMessage = "Please choose a category.")]

@@ -8,7 +8,7 @@
 			<!--product-details-->
 			<div class="col-sm-5">
 				<div class="view-product">
-					<img src="~/images/@Model.Image" alt="" />
+					<img src="~/media/products/@Model.Image" alt="@Model.Name" />
 					<h3>ZOOM</h3>
 				</div>
 				<div id="similar-product" class="carousel slide" data-ride="carousel">
@@ -43,13 +43,21 @@
 						<span>US $@Model.Price</span>
 						<label>Quantity: </label>
 						<input type="text" value="1" />
-						<button type="button" class="btn btn-fefault cart">
-							<i class="fa fa-shopping-cart"></i>
-							Add to cart
-						</button>
+						@if (@Model.Quantity > 0) {
+							<button type="button" class="btn btn-fefault cart">
+								<i class="fa fa-shopping-cart"></i>
+								Add to cart
+							</button>
+						}
+						else {
+							<button type="button" class="btn btn-fefault">
+								<i class="fa fa-shopping-cart"></i>
+								Sold out
+							</button>
+						}
 					</span>
-					<p><b>Availability:</b> In Stock</p>
-					<p><b>Condition:</b> New</p>
+					@* <p><b>Availability:</b> In Stock</p> *@
+					@* <p><b>Condition:</b> New</p> *@
 					<p><b>Brand:</b> @Model.Brand.Name</p>
 					<p><b>Category:</b> @Model.Category.Name</p>
 					<a href=""><img src="images/product-details/share.png" class="share img-responsive" alt="" /></a>

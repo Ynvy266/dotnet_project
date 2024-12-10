@@ -23,7 +23,6 @@ namespace dotnet_project.Areas.Admin.Controllers
         public async Task<IActionResult> Index()
         {
             return View(await _dataContext.Products.OrderByDescending(p => p.Id).Include(p => p.Category).Include(p => p.Brand).ToListAsync());
-
         }
 
         [HttpGet]
@@ -161,6 +160,41 @@ namespace dotnet_project.Areas.Admin.Controllers
             await _dataContext.SaveChangesAsync();
             TempData["success"] = "Successfully deleted the product!";
             return RedirectToAction("Index");
+        }
+
+        [Route("AddQuantity")]
+        [HttpGet]
+        public async Task<IActionResult> AddQuantity(long Id)
+        {
+            var productbyquantity = await _dataContext.ProductQuantities
+                .Where(q => q.ProductId == Id).ToListAsync();
+            ViewBag.ProductByQuantity = productbyquantity;
+            ViewBag.Id = Id;
+            return View();
+        }
+
+        [Route("StoreProductQuantity")]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult StoreProductQuantity(ProductQuantityModel productQuantityModel)
+        {
+            //Get the product to update
+            var product = _dataContext.Products.Find(productQuantityModel.ProductId);
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+            product.Quantity += productQuantityModel.Quantity;
+
+            productQuantityModel.Quantity = productQuantityModel.Quantity;
+            productQuantityModel.ProductId = productQuantityModel.ProductId;
+            productQuantityModel.DateCreated = DateTime.Now;
+
+            _dataContext.Add(productQuantityModel);
+            _dataContext.SaveChanges();
+            TempData["success"] = "Successfully added the product quantity!";
+            return RedirectToAction("AddQuantity", "Product", new { Id = productQuantityModel.ProductId});
         }
     }
 }

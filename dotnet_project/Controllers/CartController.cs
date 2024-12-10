@@ -2,6 +2,7 @@
 using dotnet_project.Models.ViewModels;
 using dotnet_project.Repository;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace dotnet_project.Controllers
 {
@@ -69,13 +70,19 @@ namespace dotnet_project.Controllers
 
         public async Task<IActionResult> Increase(int Id)
         {
+            ProductModel product =  await _dataContext.Products
+                .Where(p => p.Id == Id).FirstOrDefaultAsync();
             List<CartItemModel> cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart");
             CartItemModel cartItem = cart.Where(c => c.ProductId == Id).FirstOrDefault();
-            if (cartItem.Quantity >= 1)
+            if (cartItem.Quantity >= 1 && product.Quantity > cartItem.Quantity)
             {
                 ++cartItem.Quantity;
             }
-            else cart.RemoveAll(p => p.ProductId == Id);
+            else
+            {
+                cartItem.Quantity = product.Quantity;
+                TempData["error"] = "You have reached the maximum quantity of items remaining in stock.";
+            }
 
             if (cart.Count == 0)
             {

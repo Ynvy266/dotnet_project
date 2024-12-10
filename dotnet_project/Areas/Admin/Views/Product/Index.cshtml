@@ -3,13 +3,15 @@
 	ViewData["title"] = "Products List";
 }
 <h3>Product List</h3>
-<a asp-action="Create" asp-controller="Product">Add Product</a>
+<a class="btn btn-primary" asp-action="Create" asp-controller="Product">Add Product</a>
 
 <table class="table table-striped" id="myTable">
     <thead>
         <tr>
             <th scope="col">#</th>
             <th scope="col">Name</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Sold</th>
             <th scope="col">Category</th>
             <th scope="col">Brand</th>
             <th scope="col">Price</th>
@@ -23,6 +25,8 @@
             <tr>
                 <th scope="row">@item.Id</th>
                 <td>@item.Name</td>
+                <td><b>@item.Quantity</b><br /><a asp-controller="Product" asp-action="AddQuantity" asp-route-Id="@item.Id">Add Quantity</a></td>
+                <td><b>@item.Sold</b></td>
                 <td>@item.Category.Name</td>
                 <td>@item.Brand.Name</td>
                 <td>@item.Price</td>

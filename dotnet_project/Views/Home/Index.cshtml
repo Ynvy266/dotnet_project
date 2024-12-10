@@ -21,7 +21,13 @@
 								<p>@item.Name</p>
 							</div>
 						</a>
-						<a class="btn btn-default add-to-cart" asp-action="Add" asp-controller="Cart" asp-route-Id="@item.Id"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+						@if (item.Quantity > 0) {
+							<a class="btn btn-default add-to-cart" asp-action="Add" asp-controller="Cart" asp-route-Id="@item.Id"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+						}
+						else {
+							<a class="btn btn-default"><i class="fa fa-shopping-cart"></i> Sold out</a>
+						}
+						
 					</div>
 
 					<div class="choose">

@@ -115,3 +115,4 @@ wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\media\products\0b46b52b-7456-44a6-992c-3bb2e71a8cbd_pollipots4.jpg
+wwwroot\media\products\bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.jpg

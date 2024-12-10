@@ -2124,5 +2124,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\0b46b52b-7456-44a6-992c-3bb2e71a8cbd_pollipots4.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>dotnet_project</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/dotnet_project</BasePath>
+      <RelativePath>media/products/bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4d6a09d03s</Fingerprint>
+      <Integrity>uNINH6sdNuxO3xmiSbe4ZBk4sWDj/rBoEyL6dFMFi/E=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
   </ItemGroup>
 </Project>

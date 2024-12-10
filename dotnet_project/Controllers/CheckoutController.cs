@@ -4,6 +4,7 @@ using dotnet_project.Models.ViewModels;
 using dotnet_project.Repository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 
 namespace dotnet_project.Controllers
@@ -45,12 +46,19 @@ namespace dotnet_project.Controllers
                     orderdetails.ProductId = cartItem.ProductId;
                     orderdetails.Price = cartItem.Price;
                     orderdetails.Quantity = cartItem.Quantity;
+                    //Update product quantity
+                    var product = await _dataContext.Products
+                        .Where(p => p.Id == cartItem.ProductId).FirstAsync();
+                    product.Quantity -= cartItem.Quantity;
+                    product.Sold += cartItem.Quantity;
+                    _dataContext.Update(product);
+
                     _dataContext.Add(orderdetails);
                     _dataContext.SaveChanges();
                 }
                 HttpContext.Session.Remove("Cart");
                 //Send email to confirm checkout
-                var receiver = "nguyenyenvy266@gmail.com";
+                var receiver = userEmail;
                 var subject = "Order placed successfully!";
                 var message = "Order placed successfully!";
 
