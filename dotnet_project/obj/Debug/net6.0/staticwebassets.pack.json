@@ -473,10 +473,6 @@
       "PackagePath": "staticwebassets\\media\\products\\0b46b52b-7456-44a6-992c-3bb2e71a8cbd_pollipots4.jpg"
     },
     {
-      "Id": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\media\\products\\bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.jpg"
-    },
-    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.dotnet_project.props",
       "PackagePath": "build\\dotnet_project.props"
     },

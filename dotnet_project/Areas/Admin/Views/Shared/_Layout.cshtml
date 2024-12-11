@@ -72,6 +72,7 @@
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
 								@* <li><a asp-action="Index" asp-controller="Home" class="active">Home</a></li> *@
+								<li><a asp-action="Index" asp-controller="Dashboard">Dashboard</a></li>
 								<li><a asp-action="Index" asp-controller="Product">Product</a></li>
 								<li><a asp-action="Index" asp-controller="Category">Category</a></li>
 								<li><a asp-action="Index" asp-controller="Brand">Brand</a></li>
@@ -133,13 +134,15 @@
 	</script>
 
 	<script>
-				let table = new DataTable('#myTable', {
+		new DataTable('#myTable', {
 			layout: {
 				topStart: {
 					buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
 				}
-			}
+			},
+			"lengthChange": true,
 		});
+		// let table = new DataTable('#myTable');
 	</script>
 	@await RenderSectionAsync("Scripts", required: false)
 </body>

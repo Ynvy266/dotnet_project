@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AeAoKVeMnTeJGnMUPY2RV3TAtFLSaVSwFHMm4ua2loo=",
+  "Hash": "HAsfqxmqBdAcHKuysEepJ1wvF3LrIZ+om2+qiKAO7G0=",
   "Source": "dotnet_project",
   "BasePath": "_content/dotnet_project",
   "Mode": "Default",
@@ -2514,27 +2514,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\media\\products\\0b46b52b-7456-44a6-992c-3bb2e71a8cbd_pollipots4.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\media\\products\\bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.jpg",
-      "SourceId": "dotnet_project",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
-      "BasePath": "_content/dotnet_project",
-      "RelativePath": "media/products/bc282c09-1cad-480a-9277-87c95c61a364_pollipots3#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "4d6a09d03s",
-      "Integrity": "uNINH6sdNuxO3xmiSbe4ZBk4sWDj/rBoEyL6dFMFi/E=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\media\\products\\bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.jpg"
     }
   ],
   "Endpoints": [
@@ -12293,88 +12272,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-3oWsUwAEy/BXfMVLLbNQvB0ojYbN2goHZNzdgnRugB4="
-        }
-      ]
-    },
-    {
-      "Route": "media/products/bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.4d6a09d03s.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\media\\products\\bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "15643"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uNINH6sdNuxO3xmiSbe4ZBk4sWDj/rBoEyL6dFMFi/E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 16:47:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4d6a09d03s"
-        },
-        {
-          "Name": "label",
-          "Value": "media/products/bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-uNINH6sdNuxO3xmiSbe4ZBk4sWDj/rBoEyL6dFMFi/E="
-        }
-      ]
-    },
-    {
-      "Route": "media/products/bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.jpg",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\media\\products\\bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "15643"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uNINH6sdNuxO3xmiSbe4ZBk4sWDj/rBoEyL6dFMFi/E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 16:47:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-uNINH6sdNuxO3xmiSbe4ZBk4sWDj/rBoEyL6dFMFi/E="
         }
       ]
     }

@@ -1416,17 +1416,5 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yztwazjt1l"},{"Name":"integrity","Value":"sha256-3oWsUwAEy/BXfMVLLbNQvB0ojYbN2goHZNzdgnRugB4="},{"Name":"label","Value":"_content/dotnet_project/media/products/0b46b52b-7456-44a6-992c-3bb2e71a8cbd_pollipots4.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"39266"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00223oWsUwAEy/BXfMVLLbNQvB0ojYbN2goHZNzdgnRugB4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 11:04:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/dotnet_project/media/products/bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.4d6a09d03s.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4d6a09d03s"},{"Name":"integrity","Value":"sha256-uNINH6sdNuxO3xmiSbe4ZBk4sWDj/rBoEyL6dFMFi/E="},{"Name":"label","Value":"_content/dotnet_project/media/products/bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"15643"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022uNINH6sdNuxO3xmiSbe4ZBk4sWDj/rBoEyL6dFMFi/E=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 16:47:51 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/dotnet_project/media/products/bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\bc282c09-1cad-480a-9277-87c95c61a364_pollipots3.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-uNINH6sdNuxO3xmiSbe4ZBk4sWDj/rBoEyL6dFMFi/E="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"15643"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022uNINH6sdNuxO3xmiSbe4ZBk4sWDj/rBoEyL6dFMFi/E=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Dec 2024 16:47:51 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

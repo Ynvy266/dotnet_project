@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +39,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "dotnet_project\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Controllers\\CartController.cs*",
-              "RelativeToolTip": "dotnet_project\\Controllers\\CartController.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:52:07.941Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "dotnet_project\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "dotnet_project\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAawIUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T01:15:15.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "dotnet_project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "dotnet_project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T01:15:07.37Z",
               "EditorCaption": ""
             }
           ]
