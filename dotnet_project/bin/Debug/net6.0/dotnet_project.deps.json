@@ -34,6 +34,7 @@
     ".NETCoreApp,Version=v6.0": {
       "dotnet_project/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": "6.0.36",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.36",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "6.0.36",
           "Microsoft.EntityFrameworkCore": "6.0.36",
@@ -343,6 +344,17 @@
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.26.1919"
           }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/6.0.36": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "6.0.36.0",
+            "fileVersion": "6.0.3624.51604"
+          }
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.dll": {}
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/6.0.36": {
@@ -2886,6 +2898,13 @@
       "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/6.0.36": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NNg7Ce9GC+UprcUIYPZlRwyNm/QBMbtOIyX+LgO3/Z4bAtmg7ZpNLMDGhwDeNWFqMaTPXtW2HQOb3hcV1Oja1A==",
+      "path": "microsoft.aspnetcore.authentication.google/6.0.36",
+      "hashPath": "microsoft.aspnetcore.authentication.google.6.0.36.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.36": {
       "type": "package",

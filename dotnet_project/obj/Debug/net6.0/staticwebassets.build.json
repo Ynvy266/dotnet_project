@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HAsfqxmqBdAcHKuysEepJ1wvF3LrIZ+om2+qiKAO7G0=",
+  "Hash": "FS8mYjUWNtR+HyCAjACRQrN/RWIFi11RzV+Xqo49bns=",
   "Source": "dotnet_project",
   "BasePath": "_content/dotnet_project",
   "Mode": "Default",
@@ -962,12 +962,12 @@
       "OriginalItemSpec": "wwwroot\\images\\NoBrand\\nobrand4.jpg"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Planttaby.png",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Plantaby.png",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/Planttaby#[.{fingerprint}]?.png",
+      "RelativePath": "images/Plantaby#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -976,19 +976,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jz2zml555k",
-      "Integrity": "39OjeVfNXzIrIvdluaZRDf2ynur58jqAqWODTywbBTs=",
+      "Fingerprint": "z2hvhrzdgr",
+      "Integrity": "xSqy5ET2MSHF6l69ZNiCHTmo7gY7++cmsuxORamQ9vM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Planttaby.png"
+      "OriginalItemSpec": "wwwroot\\images\\Plantaby.png"
     },
     {
-      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Planttaby1.png",
+      "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Plantaby1.png",
       "SourceId": "dotnet_project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\",
       "BasePath": "_content/dotnet_project",
-      "RelativePath": "images/Planttaby1#[.{fingerprint}]?.png",
+      "RelativePath": "images/Plantaby1#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -997,11 +997,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "y2cwcru88o",
-      "Integrity": "Kr0XyHF8OWBLuxWP9BUC9u+/HWwVDsROu81drfim/lE=",
+      "Fingerprint": "z2hvhrzdgr",
+      "Integrity": "xSqy5ET2MSHF6l69ZNiCHTmo7gY7++cmsuxORamQ9vM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Planttaby1.png"
+      "OriginalItemSpec": "wwwroot\\images\\Plantaby1.png"
     },
     {
       "Identity": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\PolliPots\\pollipots1.jpg",
@@ -6208,8 +6208,8 @@
       ]
     },
     {
-      "Route": "images/Planttaby.jz2zml555k.png",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Planttaby.png",
+      "Route": "images/Plantaby.png",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Plantaby.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6218,7 +6218,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15484"
+          "Value": "14943"
         },
         {
           "Name": "Content-Type",
@@ -6226,56 +6226,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"39OjeVfNXzIrIvdluaZRDf2ynur58jqAqWODTywbBTs=\""
+          "Value": "\"xSqy5ET2MSHF6l69ZNiCHTmo7gY7++cmsuxORamQ9vM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 11:04:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jz2zml555k"
-        },
-        {
-          "Name": "label",
-          "Value": "images/Planttaby.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-39OjeVfNXzIrIvdluaZRDf2ynur58jqAqWODTywbBTs="
-        }
-      ]
-    },
-    {
-      "Route": "images/Planttaby.png",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Planttaby.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "15484"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"39OjeVfNXzIrIvdluaZRDf2ynur58jqAqWODTywbBTs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 11:04:12 GMT"
+          "Value": "Wed, 11 Dec 2024 12:03:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6285,13 +6240,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-39OjeVfNXzIrIvdluaZRDf2ynur58jqAqWODTywbBTs="
+          "Value": "sha256-xSqy5ET2MSHF6l69ZNiCHTmo7gY7++cmsuxORamQ9vM="
         }
       ]
     },
     {
-      "Route": "images/Planttaby1.png",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Planttaby1.png",
+      "Route": "images/Plantaby.z2hvhrzdgr.png",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Plantaby.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6300,7 +6255,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11915"
+          "Value": "14943"
         },
         {
           "Name": "Content-Type",
@@ -6308,48 +6263,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kr0XyHF8OWBLuxWP9BUC9u+/HWwVDsROu81drfim/lE=\""
+          "Value": "\"xSqy5ET2MSHF6l69ZNiCHTmo7gY7++cmsuxORamQ9vM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 11:04:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Kr0XyHF8OWBLuxWP9BUC9u+/HWwVDsROu81drfim/lE="
-        }
-      ]
-    },
-    {
-      "Route": "images/Planttaby1.y2cwcru88o.png",
-      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Planttaby1.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "11915"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Kr0XyHF8OWBLuxWP9BUC9u+/HWwVDsROu81drfim/lE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 11:04:12 GMT"
+          "Value": "Wed, 11 Dec 2024 12:03:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6359,15 +6277,97 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "y2cwcru88o"
+          "Value": "z2hvhrzdgr"
         },
         {
           "Name": "label",
-          "Value": "images/Planttaby1.png"
+          "Value": "images/Plantaby.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Kr0XyHF8OWBLuxWP9BUC9u+/HWwVDsROu81drfim/lE="
+          "Value": "sha256-xSqy5ET2MSHF6l69ZNiCHTmo7gY7++cmsuxORamQ9vM="
+        }
+      ]
+    },
+    {
+      "Route": "images/Plantaby1.png",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Plantaby1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14943"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xSqy5ET2MSHF6l69ZNiCHTmo7gY7++cmsuxORamQ9vM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 12:03:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xSqy5ET2MSHF6l69ZNiCHTmo7gY7++cmsuxORamQ9vM="
+        }
+      ]
+    },
+    {
+      "Route": "images/Plantaby1.z2hvhrzdgr.png",
+      "AssetFile": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\images\\Plantaby1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14943"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xSqy5ET2MSHF6l69ZNiCHTmo7gY7++cmsuxORamQ9vM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Dec 2024 12:03:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z2hvhrzdgr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Plantaby1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xSqy5ET2MSHF6l69ZNiCHTmo7gY7++cmsuxORamQ9vM="
         }
       ]
     },

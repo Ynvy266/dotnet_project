@@ -41,8 +41,8 @@ wwwroot\images\NoBrand\nobrand1.jpg
 wwwroot\images\NoBrand\nobrand2.jpg
 wwwroot\images\NoBrand\nobrand3.jpg
 wwwroot\images\NoBrand\nobrand4.jpg
-wwwroot\images\Planttaby.png
-wwwroot\images\Planttaby1.png
+wwwroot\images\Plantaby.png
+wwwroot\images\Plantaby1.png
 wwwroot\images\PolliPots\pollipots1.jpg
 wwwroot\images\PolliPots\pollipots2.jpg
 wwwroot\images\PolliPots\pollipots3.jpg

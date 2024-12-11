@@ -2,6 +2,9 @@
 using dotnet_project.Models;
 using dotnet_project.Models.ViewModels;
 using dotnet_project.Repository;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -76,6 +79,7 @@ namespace dotnet_project.Controllers
 
         public async Task<IActionResult> Logout(string returnUrl = "/")
         {
+            await HttpContext.SignOutAsync();
             await _signInManager.SignOutAsync();
             return Redirect(returnUrl);
         }
@@ -206,5 +210,28 @@ namespace dotnet_project.Controllers
             return RedirectToAction("History", "Account");
         }
 
+        public async Task SignInWithGoogle()
+        {
+            await HttpContext.ChallengeAsync(GoogleDefaults.AuthenticationScheme,
+                new AuthenticationProperties
+                {
+                    RedirectUri = Url.Action("GoogleResponse")
+                });
+        }
+
+        public async Task<IActionResult> GoogleResponse()
+        {
+            var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            var claims = result.Principal.Identities.FirstOrDefault().Claims.Select(claim => new
+            {
+                claim.Issuer,
+                claim.OriginalIssuer,
+                claim.Type,
+                claim.Value
+            });
+            TempData["success"] = "Sign in successfully!";
+            return RedirectToAction("Index", "Home");
+            //return Json(claims);
+        }
     }
 }
