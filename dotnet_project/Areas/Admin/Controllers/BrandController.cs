@@ -8,7 +8,7 @@ namespace dotnet_project.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Route("Admin/Brand")]
-    [Authorize]
+    [Authorize(Roles = "Admin, Staff")]
     public class BrandController : Controller
     {
         private readonly DataContext _dataContext;

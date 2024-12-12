@@ -489,8 +489,20 @@
       "PackagePath": "staticwebassets\\media\\products\\49d7f66d-4d72-439f-b95e-2edd46356378_pollipots3.jpg"
     },
     {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\media\\products\\53f0349f-d0a5-4bae-9e05-2063438a7612_hanselmann1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\53f0349f-d0a5-4bae-9e05-2063438a7612_hanselmann1.jpg"
+    },
+    {
       "Id": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\media\\products\\732eec3a-b402-4d3a-89e7-5b4ec36824e8_nobrand2.jpg",
       "PackagePath": "staticwebassets\\media\\products\\732eec3a-b402-4d3a-89e7-5b4ec36824e8_nobrand2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\media\\products\\ab9f4ba6-1fdd-4000-90ff-d919e1480f39_bobdinetz4.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\ab9f4ba6-1fdd-4000-90ff-d919e1480f39_bobdinetz4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\wwwroot\\media\\products\\f4fbd179-5615-4f49-b652-28d34292a855_hanselmann1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\f4fbd179-5615-4f49-b652-28d34292a855_hanselmann1.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.dotnet_project.props",

@@ -119,4 +119,7 @@ wwwroot\media\products\22d6e2d1-0c45-4711-898b-9dcc842681b6_Plantaby.png
 wwwroot\media\products\2651ddb5-01d9-4174-84c7-9cf52fad66b0_hanselmann1.jpg
 wwwroot\media\products\3139142a-ad71-49c6-90c5-3a9d4d241099_hanselmann8.jpg
 wwwroot\media\products\49d7f66d-4d72-439f-b95e-2edd46356378_pollipots3.jpg
+wwwroot\media\products\53f0349f-d0a5-4bae-9e05-2063438a7612_hanselmann1.jpg
 wwwroot\media\products\732eec3a-b402-4d3a-89e7-5b4ec36824e8_nobrand2.jpg
+wwwroot\media\products\ab9f4ba6-1fdd-4000-90ff-d919e1480f39_bobdinetz4.jpg
+wwwroot\media\products\f4fbd179-5615-4f49-b652-28d34292a855_hanselmann1.jpg

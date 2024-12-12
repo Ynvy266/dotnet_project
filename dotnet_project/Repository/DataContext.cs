@@ -16,6 +16,7 @@ namespace dotnet_project.Repository
         public DbSet<OrderModel> Orders { get; set; }
         public DbSet<OrderDetailsModel> OrderDetails { get; set; }
         public DbSet<ProductQuantityModel> ProductQuantities { get; set; }
+        public DbSet<StatisticModel> Statistic { get; set; }
 
     }
 }

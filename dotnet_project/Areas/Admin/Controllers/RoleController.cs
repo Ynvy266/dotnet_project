@@ -9,8 +9,7 @@ namespace dotnet_project.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Route("Admin/Role")]
-    [Authorize]
-    //[Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin")]
     public class RoleController : Controller
     {
         private readonly DataContext _dataContext;

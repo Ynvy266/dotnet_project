@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace dotnet_project.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
+    [Authorize(Roles = "Admin, Staff")]
     public class CategoryController : Controller
     {
         private readonly DataContext _dataContext;
