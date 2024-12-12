@@ -44,3 +44,17 @@
 	</div><!--features_items-->
 
 </div>
+@section Scripts{
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#sort_by').on('change', function () {
+				var url = $(this).val();
+				if (url) {
+					window.location = url;
+				}
+				return false;
+}
+			})
+		})
+		</script>
+}

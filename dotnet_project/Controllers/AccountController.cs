@@ -210,28 +210,43 @@ namespace dotnet_project.Controllers
             return RedirectToAction("History", "Account");
         }
 
-        public async Task SignInWithGoogle()
+        public IActionResult SignInWithGoogle()
         {
-            await HttpContext.ChallengeAsync(GoogleDefaults.AuthenticationScheme,
-                new AuthenticationProperties
-                {
-                    RedirectUri = Url.Action("GoogleResponse")
-                });
-        }
+			return Challenge(new AuthenticationProperties { RedirectUri = "PlantabyPotteryShop" }, GoogleDefaults.AuthenticationScheme);
+		}
 
         public async Task<IActionResult> GoogleResponse()
         {
-            var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            var claims = result.Principal.Identities.FirstOrDefault().Claims.Select(claim => new
-            {
-                claim.Issuer,
-                claim.OriginalIssuer,
-                claim.Type,
-                claim.Value
-            });
-            TempData["success"] = "Sign in successfully!";
-            return RedirectToAction("Index", "Home");
-            //return Json(claims);
-        }
-    }
+			//var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+			//var claims = result.Principal.Identities.FirstOrDefault().Claims.Select(claim => new
+			//{
+			//    claim.Issuer,
+			//    claim.OriginalIssuer,
+			//    claim.Type,
+			//    claim.Value
+			//});
+			//TempData["success"] = "Sign in successfully!";
+			//return RedirectToAction("Index", "Home");
+			//return Json(claims);
+
+			var result = await HttpContext.AuthenticateAsync(GoogleDefaults.AuthenticationScheme);
+
+			if (result?.Principal != null)
+			{
+				var claimsIdentity = result.Principal.Identity as ClaimsIdentity;
+
+				// You can access the Google claims here
+				var name = claimsIdentity?.FindFirst(ClaimTypes.Name)?.Value;
+				var email = claimsIdentity?.FindFirst(ClaimTypes.Email)?.Value;
+
+				// Here you could either create a user in your database or issue your own token
+
+				// Example: Returning user's name and email as a view
+				return View("Welcome", new { Name = name, Email = email });
+			}
+
+			return RedirectToAction("Login");
+
+		}
+	}
 }

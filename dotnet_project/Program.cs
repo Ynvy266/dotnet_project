@@ -68,14 +68,22 @@ builder.Services.AddCors(options =>
 //Configuration Sign In Google Account
 builder.Services.AddAuthentication(options =>
 {
-    options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-    options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-
-}).AddCookie().AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
+	//options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+	//options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+	//options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+	options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+	options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
+})
+.AddCookie()
+//.AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
+//{
+//    options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
+//    options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
+//});
+.AddGoogle(options =>
 {
-    options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
-    options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
+	options.ClientId = "970127958048-9cn5o1823jmb8i5i118jdcpgobql0ev8.apps.googleusercontent.com";
+	options.ClientSecret = "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";
 });
 
 var app = builder.Build();
