@@ -1,0 +1,79 @@
+﻿@model IEnumerable<BrandModel>
+@{
+	ViewData["title"] = "Dashboard";
+}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width"/>
+		<title>Dashboard</title>
+	</head>
+	<body>
+		<h3>Dashboard Statistic</h3>
+		<div class="row">
+			<div class="col-md-3">
+				<p>Product</p>
+				@ViewBag.CountProduct
+			</div>
+			<div class="col-md-3">
+				<p>Orders</p>
+				@ViewBag.CountOrder
+			</div>
+			<div class="col-md-3">
+				<p>Category</p>
+				@ViewBag.CountCategory
+			</div>
+			<div class="col-md-3">
+				<p>User</p>
+				@ViewBag.CountUser
+			</div>
+		</div>
+		<div class="row">
+			<p>Chart</p>
+		<div id="myfirstchart" style="height: 250px;"></div>
+		</div>
+	</body>
+	@section Scripts {
+		<script>
+			$(document).ready(function () {
+				$.ajax({
+					url: "@Url.Action("GetChartData", "Dashboard")",
+					type: "POST",
+					dataType: "json",
+					success: function (data) {
+						var chartData = data.map(function (item) {
+							return {
+								date: item.date,
+								sold: item.sold,
+								quantity: item.quantity,
+								revenue: item.revenue,
+								profit: item.profit
+							};
+						});
+						new Morris.Line({
+							// ID of the element in which to draw the chart.
+							element: 'myfirstchart',
+							// Chart data records -- each entry in this array corresponds to a point on
+							// the chart.
+							data: chartData,
+
+							// The name of the data record attribute that contains x-values.
+							xkey: 'date',
+							xLabelFormat: function (x) {
+								return new Date(x).toLocaleDateString();
+							},
+							// A list of names of data record attributes that contain y-values.
+							ykeys: ['sold', 'quantity', 'revenue', 'profit'],
+							// Labels for the ykeys -- will be displayed when you hover over the
+							// chart.
+							labels: ['Số lượng bán ra', 'Đơn hàng', 'Doanh thu', 'Lợi nhuận']
+						});
+					},
+					error: function (error) {
+						console.error("Error fetching data: ", error);
+					}
+				});
+			});
+		</script>
+	}
+</html>
