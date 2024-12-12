@@ -11,6 +11,7 @@ namespace dotnet_project.Controllers
         {
             _dataContext = context;
         }
+
         public IActionResult Index()
         {
             return View();  

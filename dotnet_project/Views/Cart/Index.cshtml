@@ -27,13 +27,13 @@
 						@foreach(var item in Model.CartItems) {
 							<tr>
 								<td class="cart_product">
-									<a href=""><img src="~/media/products/@item.Image" alt="@item.ProductName" width="100px"></a>
+									<a href=""><img src="~/media/products/@item.Image" alt="@item.ProductName" width="100px" height="100px"></a>
 								</td>
 								<td class="cart_description">
 									<h4><a href="">@item.ProductName</a></h4>
 								</td>
 								<td class="cart_price">
-									<p>$@item.Price</p>
+									<p>@item.Price.ToString("#,##0 VNĐ")</p>
 								</td>
 								<td class="cart_quantity">
 									<div class="cart_quantity_button">
@@ -45,7 +45,7 @@
 									</div>
 								</td>
 								<td class="cart_total">
-									<p class="cart_total_price">$@Model.CartItems.Where(x => x.ProductId == item.ProductId).Sum(x => x.Quantity * x.Price).ToString()</p>
+									<p class="cart_total_price">@Model.CartItems.Where(x => x.ProductId == item.ProductId).Sum(x => x.Quantity * x.Price).ToString("#,##0 VNĐ")</p>
 								</td>
 								<td class="cart_delete">
 									<a class="cart_quantity_delete" asp-controller="Cart" asp-action="Remove" asp-route-id="@item.ProductId"> x </a>
@@ -53,16 +53,31 @@
 							</tr>
 						}
 						<tr rowspan = "5">
-							<td colspan="6"><p class="cart_total_price">Grand Total: $@Model.GrandTotal.ToString()</p></td>
+							<td colspan="6"><p class="cart_total_price">Grand Total: @Model.GrandTotal.ToString("#,##0 VNĐ")</p></td>
 							<td class="cart_delete">
 								<a class="cart_quantity_delete" asp-controller="Cart" asp-action="Clear"> Clear All </a>
 							</td>
 							@if (User.Identity?.IsAuthenticated ?? false)
 							{
 								<td>
-									<a class="btn btn-primary btn-sm" asp-controller="Checkout" asp-action="Checkout"> Checkout </a>
+									@* <a class="btn btn-primary btn-sm" asp-controller="Checkout" asp-action="Checkout"> Checkout </a> *@
+									<a class="btn btn-primary btn-sm btn-checkout"
+									   onclick="return confirm('Confirm checkout?');"
+									   asp-controller="Checkout" asp-action="Checkout">
+									   Checkout
+									</a>
 								</td>
 							}
+							<td>
+								<form method="post" asp-action="CreatePaymentMoMo" asp-controller="Payment">
+									<input type="hidden" name="Amount" value="@Model.GrandTotal"/>
+									<input type="hidden" name="OrderId" value="@Guid.NewGuid().ToString()" />
+									<input type="hidden" name="OrderInfo" value="Pay with MoMo for the order at Plantaby Pottery Shop." />
+									<input type="hidden" name="FullName" value="Plantaby Pottery Shop" />
+									<button class="btn btn-primary btn-sm" name="PayUrl" type="submit">Pay with MoMo</button>
+								</form>
+								
+							</td>
 						</tr>
 					}
 					else {

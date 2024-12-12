@@ -115,3 +115,8 @@ wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\media\products\0b46b52b-7456-44a6-992c-3bb2e71a8cbd_pollipots4.jpg
+wwwroot\media\products\22d6e2d1-0c45-4711-898b-9dcc842681b6_Plantaby.png
+wwwroot\media\products\2651ddb5-01d9-4174-84c7-9cf52fad66b0_hanselmann1.jpg
+wwwroot\media\products\3139142a-ad71-49c6-90c5-3a9d4d241099_hanselmann8.jpg
+wwwroot\media\products\49d7f66d-4d72-439f-b95e-2edd46356378_pollipots3.jpg
+wwwroot\media\products\732eec3a-b402-4d3a-89e7-5b4ec36824e8_nobrand2.jpg

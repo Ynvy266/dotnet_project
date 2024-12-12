@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qtq4xdn8qs</Fingerprint>
-      <Integrity>zuUx1OCOA1RNcHI8q7q0bF+5ejTbJ0KdIQn43wo8Obo=</Integrity>
+      <Fingerprint>vf5m6dyhqt</Fingerprint>
+      <Integrity>9cCbDBDOVOH+tope/E2ydbCT6U+736K3FOVtnn1Jk8I=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\main.css'))</OriginalItemSpec>
@@ -102,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4iy2p194g1</Fingerprint>
-      <Integrity>1Ped4U3c+s7R/ZzcGTW+3wx4ly8+XrbTCH35DNpNFBE=</Integrity>
+      <Fingerprint>m915oh8uyz</Fingerprint>
+      <Integrity>qpGhM03SsFcZoZd2NLsYrIUjDFnBZgLhcBHFlNDXMi8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\price-range.css'))</OriginalItemSpec>
@@ -2123,6 +2123,96 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\0b46b52b-7456-44a6-992c-3bb2e71a8cbd_pollipots4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\22d6e2d1-0c45-4711-898b-9dcc842681b6_Plantaby.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>dotnet_project</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/dotnet_project</BasePath>
+      <RelativePath>media/products/22d6e2d1-0c45-4711-898b-9dcc842681b6_Plantaby.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>txeadkdlun</Fingerprint>
+      <Integrity>34iNzUuAV+OjNBwxl8Lej0neQG3f3/ReXEZTJPKK5q0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\22d6e2d1-0c45-4711-898b-9dcc842681b6_Plantaby.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\2651ddb5-01d9-4174-84c7-9cf52fad66b0_hanselmann1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>dotnet_project</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/dotnet_project</BasePath>
+      <RelativePath>media/products/2651ddb5-01d9-4174-84c7-9cf52fad66b0_hanselmann1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4klrea6hsa</Fingerprint>
+      <Integrity>5HtF8yqNFfsUd9XQvACyr/JrNngVmGppx+9tsx77QLA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\2651ddb5-01d9-4174-84c7-9cf52fad66b0_hanselmann1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\3139142a-ad71-49c6-90c5-3a9d4d241099_hanselmann8.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>dotnet_project</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/dotnet_project</BasePath>
+      <RelativePath>media/products/3139142a-ad71-49c6-90c5-3a9d4d241099_hanselmann8.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hsnnlkiwfq</Fingerprint>
+      <Integrity>Mf1dqAEtRLxGnljs1/UqZy5er+aqO/tL2RXKYeoeuCw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\3139142a-ad71-49c6-90c5-3a9d4d241099_hanselmann8.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\49d7f66d-4d72-439f-b95e-2edd46356378_pollipots3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>dotnet_project</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/dotnet_project</BasePath>
+      <RelativePath>media/products/49d7f66d-4d72-439f-b95e-2edd46356378_pollipots3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4d6a09d03s</Fingerprint>
+      <Integrity>uNINH6sdNuxO3xmiSbe4ZBk4sWDj/rBoEyL6dFMFi/E=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\49d7f66d-4d72-439f-b95e-2edd46356378_pollipots3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\732eec3a-b402-4d3a-89e7-5b4ec36824e8_nobrand2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>dotnet_project</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/dotnet_project</BasePath>
+      <RelativePath>media/products/732eec3a-b402-4d3a-89e7-5b4ec36824e8_nobrand2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pzkinjt72a</Fingerprint>
+      <Integrity>xW0X7IcpbToC3zQKREFko27AA/H5ZSnWaCrR/mMUoXQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\products\732eec3a-b402-4d3a-89e7-5b4ec36824e8_nobrand2.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

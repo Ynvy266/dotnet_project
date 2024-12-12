@@ -93,9 +93,9 @@
 								<li><a asp-controller="Cart" asp-action="Index"><i class="fa fa-shopping-cart"></i> Cart</a></li>
 								
 								@if(User.Identity?.IsAuthenticated ?? false) {
-									<li><a asp-controller="Cart" asp-action="Index"><i class="fa fa-crosshairs"></i> Checkout</a></li>
-									<li><a asp-controller="Home" asp-action="Wishlist"><i class="fa fa-heart"></i> Wishlist</a></li>
-									<li><a asp-controller="Home" asp-action="Compare"><i class="fa fa-star"></i> Compare</a></li>
+									@* <li><a asp-controller="Cart" asp-action="Index"><i class="fa fa-crosshairs"></i> Checkout</a></li> *@
+									@* <li><a asp-controller="Home" asp-action="Wishlist"><i class="fa fa-heart"></i> Wishlist</a></li> *@
+									@* <li><a asp-controller="Home" asp-action="Compare"><i class="fa fa-star"></i> Compare</a></li> *@
 									<li><a asp-controller="Product" asp-action="Index" asp-area="Admin"><i class="fa fa-lock"></i> Admin CMS</a></li>
 									<li><a asp-controller="Account" asp-action="History"><i class="fa fa-clock-o"></i> History</a></li>
 									<li><a asp-controller="Account" asp-action="History"><i class="fa fa-user"></i> Account</a></li>
@@ -127,26 +127,28 @@
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a asp-controller="Home" class="active">Home</a></li>
-								<li class="dropdown">
-									<a href="#">Shop<i class="fa fa-angle-down"></i></a>
-									<ul role="menu" class="sub-menu">
-										<li><a asp-controller="Category">Category</a></li>
-										<li><a asp-controller="Product" asp-action="Details">Product Details</a></li>
-										<li><a asp-controller="Cart" asp-action="Checkout">Checkout</a></li>
-										<li><a asp-controller="Cart" asp-action="Index">Cart</a></li>
-										<li><a >Login</a></li>
-									</ul>
-								</li>
-								<li class="dropdown">
-									<a href="#">Blog<i class="fa fa-angle-down"></i></a>
-									<ul role="menu" class="sub-menu">
-										<li><a href="blog.html">Blog List</a></li>
-										<li><a href="blog-single.html">Blog Single</a></li>
-									</ul>
-								</li>
-								<li><a href="404.html">404</a></li>
-								<li><a href="contact-us.html">Contact</a></li>
+								<li><a asp-controller="Home" class="active" style="color: #b4b772;">Home</a></li>
+								<li><a href="#section1">About Us</a></li>
+								<li><a href="#section3">Feedback</a></li>
+								@* <li class="dropdown"> *@
+								@* 	<a href="#">Shop<i class="fa fa-angle-down"></i></a> *@
+								@* 	<ul role="menu" class="sub-menu"> *@
+								@* 		<li><a asp-controller="Category">Category</a></li> *@
+								@* 		<li><a asp-controller="Brand">Brand</a></li> *@
+								@* 		@* <li><a asp-controller="Product" asp-action="Details">Product Details</a></li> *@
+								@* 		@* <li><a asp-controller="Cart" asp-action="Checkout">Checkout</a></li> *@
+								@* 		@* <li><a asp-controller="Cart" asp-action="Index">Cart</a></li> *@
+								@* 	</ul> *@
+								@* </li> *@
+								@* <li class="dropdown"> *@
+								@* 	<a href="#">Blog<i class="fa fa-angle-down"></i></a> *@
+								@* 	<ul role="menu" class="sub-menu"> *@
+								@* 		<li><a href="blog.html">Blog List</a></li> *@
+								@* 		<li><a href="blog-single.html">Blog Single</a></li> *@
+								@* 	</ul> *@
+								@* </li> *@
+								@* <li><a href="404.html">404</a></li> *@
+								@* <li><a href="contact-us.html">Contact</a></li> *@
 							</ul>
 						</div>
 					</div>
@@ -154,7 +156,10 @@
 						<form asp-controller="Product" asp-action="Search" method="post">
 							<div class="search_box pull-right">
 								<input type="text" placeholder="Search" name="searchItem"/>
-								<button class="btn btn-warning" type="submit">Search</button>
+								<button class="btn btn-warning" type="submit"
+										style="background: #b4b772; border-color: #b4b772">
+									Search
+								</button>
 							</div>
 						</form>
 					</div>
@@ -282,7 +287,7 @@
                 <div class="slide-container">
                    
                     <!-- <div style="clear:both"></div> -->
-                    <div class="divproduct"><img src="~/images/fb/feedback1.png" style="width: 220px; height:230px" alt=""></div>
+                <div class="divproduct"><img src="~/images/fb/feedback1.png" style="width: 220px; height:230px" alt=""></div>
 				<div class="divproduct"><img src="~/images/fb/feedback2.png" style="width: 220px; height:230px" alt=""></div>
 				<div class="divproduct"><img src="~/images/fb/feedback3.png" style="width: 220px; height:230px" alt=""></div>
 				<div class="divproduct"><img src="~/images/fb/feedback4.png" style="width: 220px; height:230px" alt=""></div>
@@ -452,7 +457,7 @@
 		<div class="footer-bottom">
 			<div class="container">
 				<div class="row">
-					<p class="pull-left">Copyright © 2024 PLantabby Inc. All rights reserved.</p>
+					<p class="pull-left">Copyright © 2024 Plantaby Inc. All rights reserved.</p>
 					<p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">.net</a></span></p>
 				</div>
 			</div>

@@ -29,7 +29,7 @@
 				<td>@item.OrderCode</td>
 				<td>@item.UserName</td>
 				<td>@item.Product.Name</td>
-				<td>$@item.Price</td>
+				<td>@item.Price.ToString("#,##0 VNĐ")</td>
 				<td>@item.Quantity</td>
 				<td>@subtotal.ToString("C")</td>
 			</tr>

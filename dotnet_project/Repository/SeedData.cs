@@ -18,9 +18,9 @@ namespace dotnet_project.Repository
 
                 _context.Products.AddRange(
                     new ProductModel { Name = "Breakfast Bowl", Slug = "breakfastbowl", Description = "Hand-thrown ceramic breakfast bowl. Quite possibly the most frequently used dish in your home.  This bowl is great for everything from rice or soup, to hot cereals and desserts.", 
-                                       Image = "Hanselmann/1.jpg", Category = bowl, Brand = hanselmann, Price = 48 },
+                                       Image = "Hanselmann/1.jpg", Category = bowl, Brand = hanselmann, Price = 259000 },
                     new ProductModel { Name = "No Brand Gray Plate", Slug = "grayplate", Description = "Traditional 10\" dinner size plate, and the largest of Hanselmann's three dinnerware plates. These durable stoneware plates are on the heavy side, designed for everyday use and washing.", 
-                                       Image = "NoBrand/1.jpg", Category = plate, Brand = nobrand, Price = 6 }
+                                       Image = "NoBrand/1.jpg", Category = plate, Brand = nobrand, Price = 59000 }
                 );
                 _context.SaveChanges();
             }

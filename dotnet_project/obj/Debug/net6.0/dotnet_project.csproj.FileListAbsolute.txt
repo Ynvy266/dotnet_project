@@ -805,3 +805,4 @@ C:\Users\vithi\.net\dotnet_project\dotnet_project\obj\Debug\net6.0\dotnet_projec
 C:\Users\vithi\.net\dotnet_project\dotnet_project\obj\Debug\net6.0\dotnet_project.genruntimeconfig.cache
 C:\Users\vithi\.net\dotnet_project\dotnet_project\obj\Debug\net6.0\ref\dotnet_project.dll
 C:\Users\nguye\OneDrive\Documents\GitHub\dotnet_project\dotnet_project\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\nguye\OneDrive\Documents\GitHub\dotnet_project\dotnet_project\bin\Debug\net6.0\RestSharp.dll

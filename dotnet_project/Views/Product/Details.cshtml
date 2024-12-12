@@ -9,7 +9,6 @@
 			<div class="col-sm-5">
 				<div class="view-product">
 					<img src="~/media/products/@Model.Image" alt="@Model.Name" />
-					<h3>ZOOM</h3>
 				</div>
 				<div id="similar-product" class="carousel slide" data-ride="carousel">
 
@@ -40,14 +39,11 @@
 					<h2>@Model.Name</h2>
 
 					<span>
-						<span>US $@Model.Price</span>
+						<span>@Model.Price.ToString("#,##0 VNĐ")</span>
 						<label>Quantity: </label>
 						<input type="text" value="1" />
 						@if (@Model.Quantity > 0) {
-							<button type="button" class="btn btn-fefault cart">
-								<i class="fa fa-shopping-cart"></i>
-								Add to cart
-							</button>
+							<a class="btn btn-default add-to-cart" asp-action="Add" asp-controller="Cart" asp-route-Id="@Model.Id"><i class="fa fa-shopping-cart"></i> Add to cart</a>
 						}
 						else {
 							<button type="button" class="btn btn-fefault">
@@ -58,8 +54,10 @@
 					</span>
 					@* <p><b>Availability:</b> In Stock</p> *@
 					@* <p><b>Condition:</b> New</p> *@
+					<p><b>Quantity in Stock:</b> @Model.Quantity</p>
 					<p><b>Brand:</b> @Model.Brand.Name</p>
 					<p><b>Category:</b> @Model.Category.Name</p>
+					<p><b>Description:</b> @Html.Raw(@Model.Description)</p>
 					<a href=""><img src="images/product-details/share.png" class="share img-responsive" alt="" /></a>
 				</div><!--/product-information-->
 			</div>
@@ -77,7 +75,7 @@
 			</div>
 			<div class="tab-content">
 				<div class="tab-pane fade active in" id="details">
-					@Model.Description
+					@Html.Raw(@Model.Description)
 				</div>
 
 				<div class="tab-pane fade" id="companyprofile">
