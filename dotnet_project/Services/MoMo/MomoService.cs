@@ -18,7 +18,7 @@ namespace dotnet_project.Services.MoMo
         public async Task<MomoCreatePaymentResponseModel> CreatePaymentMoMo(OrderInfoModel model)
         {
             model.OrderId = DateTime.UtcNow.Ticks.ToString();
-            model.OrderInfor = "Khách hàng : " + model.FullName + "Nội dung: " + model.OrderInfor;
+            model.OrderInfor = "Khách hàng: " + model.FullName + " Nội dung: " + model.OrderInfor;
             var rawData =
                 $"partnerCode={_options.Value.PartnerCode}" +
                 $"&accessKey={_options.Value.AccessKey}" +
@@ -71,7 +71,6 @@ namespace dotnet_project.Services.MoMo
                 Amount = amount,
                 OrderId = orderId,
                 OrderInfo = orderInfo
-
             };
         }
 

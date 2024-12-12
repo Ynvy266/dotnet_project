@@ -2,6 +2,7 @@
 using dotnet_project.Models;
 using dotnet_project.Models.ViewModels;
 using dotnet_project.Repository;
+using dotnet_project.Services.MoMo;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -13,14 +14,16 @@ namespace dotnet_project.Controllers
     {
         private readonly DataContext _dataContext;
         private readonly IEmailSender _emailSender;
+        private IMomoService _momoService;
 
-        public CheckoutController(DataContext context, IEmailSender emailSender)
+        public CheckoutController(DataContext context, IEmailSender emailSender, IMomoService momoService)
         {
             _dataContext = context;
             _emailSender = emailSender;
+            _momoService = momoService;
         }
 
-        public async Task<IActionResult> Checkout()
+        public async Task<IActionResult> Checkout(string OrderId)
         {
             var userEmail = User.FindFirstValue(ClaimTypes.Email);
             if (userEmail == null)
@@ -33,6 +36,11 @@ namespace dotnet_project.Controllers
                 var orderItem = new OrderModel();
                 orderItem.OrderCode = orderCode;
                 orderItem.UserName = userEmail;
+                if (OrderId != null)
+                {
+                    orderItem.PaymentMethod = OrderId;
+                }
+                else orderItem.PaymentMethod = "COD";
                 orderItem.Status = 1; //new order
                 orderItem.CreatedDate = DateTime.Now;
                 _dataContext.Add(orderItem);
@@ -64,9 +72,36 @@ namespace dotnet_project.Controllers
 
                 await _emailSender.SendEmailAsync(receiver, subject, message);
                 TempData["success"] = "Checkout successful! Please wait for your order to be approved.";
-                return RedirectToAction("History", "Account");
             }
-            return View();
+            return RedirectToAction("History", "Account");
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> PaymentCallBack(MomoInfoModel model)
+        {
+            var response = _momoService.PaymentExecuteAsync(HttpContext.Request.Query);
+            var requestQuery = HttpContext.Request.Query;
+            if (requestQuery["resultCode"] == 0)
+            {
+                var newMomoInsert = new MomoInfoModel
+                {
+                    OrderId = requestQuery["orderId"],
+                    FullName = User.FindFirstValue(ClaimTypes.Email),
+                    Amount = decimal.Parse(requestQuery["Amount"]),
+                    OrderInfo = requestQuery["orderInfo"],
+                    PaidDate = DateTime.Now,
+                };
+                _dataContext.Add(newMomoInsert);
+                await _dataContext.SaveChangesAsync();
+                //Call checkout method after saving MomoInfo
+                await Checkout(requestQuery["orderId"]);
+            }
+            else
+            {
+                TempData["success"] = "Your MoMo transaction has failed.";
+                return RedirectToAction("Index", "Cart");
+            }
+            return View(response);
         }
     }
 }

@@ -1,0 +1,11 @@
+﻿@using dotnet_project.Models.MoMo
+@model MomoExecuteResponseModel
+
+@{
+	ViewData["title"] = "Transaction Result";
+}
+<h5>Your payment via MoMo has been successful</h5>
+<h6>Order Id: @Model.OrderId</h6>
+<h6>Information: @Model.OrderInfo</h6>
+<h6>Grand Total: @Model.Amount</h6>
+<h5>Review your <a asp-controller="Account" asp-action="History">Order History</a></h5>

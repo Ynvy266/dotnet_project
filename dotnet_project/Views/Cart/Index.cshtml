@@ -71,9 +71,9 @@
 							<td>
 								<form method="post" asp-action="CreatePaymentMoMo" asp-controller="Payment">
 									<input type="hidden" name="Amount" value="@Model.GrandTotal"/>
-									<input type="hidden" name="OrderId" value="@Guid.NewGuid().ToString()" />
+									@* <input type="hidden" name="OrderId" value="@Guid.NewGuid().ToString()" /> *@
 									<input type="hidden" name="OrderInfo" value="Pay with MoMo for the order at Plantaby Pottery Shop." />
-									<input type="hidden" name="FullName" value="Plantaby Pottery Shop" />
+									<input type="hidden" name="FullName" value="@User.Identity.Name" />
 									<button class="btn btn-primary btn-sm" name="PayUrl" type="submit">Pay with MoMo</button>
 								</form>
 								

@@ -15,11 +15,16 @@ namespace dotnet_project.Areas.Admin.Controllers
         {
             _dataContext = context;
         }
+
+        [HttpGet]
+        [Route("Index")]
         public async Task<IActionResult> Index()
         {
             return View(await _dataContext.Orders.OrderByDescending(o => o.Id).ToListAsync());
         }
 
+        [HttpGet]
+        [Route("ViewOrder")]
         public async Task<IActionResult> ViewOrder(string ordercode)
         {
             var detailsOrder = await _dataContext.OrderDetails
@@ -54,6 +59,18 @@ namespace dotnet_project.Areas.Admin.Controllers
             {
                 return StatusCode(500, "An error occured while updating the order status.");
             }
+        }
+
+        [HttpGet]
+        [Route("PaymentMomoInfo")]
+        public async Task<IActionResult> PaymentMomoInfo(string orderId)
+        {
+            var momoInfo = await _dataContext.MomoInfos.FirstOrDefaultAsync(m => m.OrderId == orderId);
+            if (momoInfo == null)
+            {
+                return NotFound();
+            }
+            return View(momoInfo);
         }
     }
 }
