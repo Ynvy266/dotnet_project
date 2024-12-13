@@ -64,9 +64,10 @@
 		$(document).ready(function () {
 			$("#slider-range").slider({
 				range: true,
+				step: 100000,
 				min: 0,
-				max: 500000,
-				values: [75000, 300000],
+				max: 700000,
+				values: [0, 300000],
 				slide: function (event, ui) {
 					$("#amount").val(ui.values[0] + "VNĐ - " + ui.values[1] + "VNĐ");
 				}

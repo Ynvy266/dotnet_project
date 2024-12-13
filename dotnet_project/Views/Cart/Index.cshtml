@@ -48,13 +48,13 @@
 									<p class="cart_total_price">@Model.CartItems.Where(x => x.ProductId == item.ProductId).Sum(x => x.Quantity * x.Price).ToString("#,##0 VNĐ")</p>
 								</td>
 								<td class="cart_delete">
-									<a class="cart_quantity_delete" asp-controller="Cart" asp-action="Remove" asp-route-id="@item.ProductId"> x </a>
+									<a class="cart_quantity_delete" asp-controller="Cart" asp-action="Remove" asp-route-id="@item.ProductId"style="display:table-cell"> x </a>
 								</td>
 							</tr>
 						}
 						<tr rowspan = "4">
-							<td colspan="3"><p class="cart_total_price">Grand Total: @Model.GrandTotal.ToString("#,##0 VNĐ")</p></td>
-							<td class="cart_delete">
+							<td colspan="3"><p class="cart_total_price" style="padding-left:20px;padding-top:30px">Grand Total: @Model.GrandTotal.ToString("#,##0 VNĐ")</p></td>
+							<td class="cart_delete"style="padding-top:45px">
 								<a class="cart_quantity_delete" asp-controller="Cart" asp-action="Clear"> Clear All </a>
 							</td>
 							@if (User.Identity?.IsAuthenticated ?? false)

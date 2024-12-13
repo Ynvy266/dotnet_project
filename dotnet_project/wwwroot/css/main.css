@@ -1659,10 +1659,10 @@ h2.title {
 }
 
 
-.cart_delete  {
-  display: block;
-  margin-right: -12px;
-  overflow: hidden;
+.cart_delete {
+/*	display: inline-block;*/
+	margin-right: -12px;
+	overflow: hidden;
 }
 
 
