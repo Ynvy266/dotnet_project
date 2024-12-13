@@ -951,7 +951,7 @@ h2.title {
   color: #696763;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .add-to-cart:hover {
@@ -1576,10 +1576,14 @@ h2.title {
   font-weight: normal;
 }
 
-#cart_items .cart_info .table.table-condensed thead tr {
-  height: 51px;
+.table.table-condensed {
+	justify-content: center;
 }
 
+#cart_items .cart_info .table.table-condensed thead tr {
+	height: 51px;
+	justify-items: stretch
+}
 
 #cart_items .cart_info .table.table-condensed tr {
   border-bottom: 1px solid#F7F7F0
@@ -2397,7 +2401,7 @@ h2.title {
 .btn.btn-primary {
   background:#b4b772;
   border: 0 none;
-  border-radius: 0;
+  border-radius: 4px;
   margin-top: 16px;
 }
 

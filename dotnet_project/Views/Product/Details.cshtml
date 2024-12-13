@@ -23,12 +23,12 @@
 					</div>
 
 					<!-- Controls -->
-					<a class="left item-control" href="#similar-product" data-slide="prev">
+					@*<a class="left item-control" href="#similar-product" data-slide="prev">
 						<i class="fa fa-angle-left"></i>
 					</a>
 					<a class="right item-control" href="#similar-product" data-slide="next">
 						<i class="fa fa-angle-right"></i>
-					</a>
+					</a>*@
 				</div>
 
 			</div>
@@ -41,7 +41,7 @@
 					<span>
 						<span>@Model.Price.ToString("#,##0 VNĐ")</span>
 						<label>Quantity: </label>
-						<input type="text" value="1" />
+						<input readonly type="text" value="1" />
 						@if (@Model.Quantity > 0) {
 							<a class="btn btn-default add-to-cart" asp-action="Add" asp-controller="Cart" asp-route-Id="@Model.Id"><i class="fa fa-shopping-cart"></i> Add to cart</a>
 						}
@@ -63,7 +63,7 @@
 			</div>
 		</div><!--/product-details-->
 
-		<div class="category-tab shop-details-tab">
+		@*<div class="category-tab shop-details-tab">
 			<!--category-tab-->
 			<div class="col-sm-12">
 				<ul class="nav nav-tabs">
@@ -297,7 +297,6 @@
 					<i class="fa fa-angle-right"></i>
 				</a>
 			</div>
-		</div><!--/recommended_items-->
-
+		</div><!--/recommended_items-->*@
 	</div>
 </div>
