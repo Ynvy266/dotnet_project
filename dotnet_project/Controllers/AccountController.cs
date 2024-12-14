@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 using System.Security.Claims;
 
 namespace dotnet_project.Controllers
@@ -93,7 +94,7 @@ namespace dotnet_project.Controllers
         public async Task<IActionResult> SendMailForgotPass(AspUserModel user)
         {
             var checkMail = await _userManager.Users.FirstOrDefaultAsync(u => u.Email == user.Email);
-            
+
             if (checkMail == null)
             {
                 TempData["Error"] = "Email not found.";
@@ -179,7 +180,7 @@ namespace dotnet_project.Controllers
 
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var userEmail = User.FindFirstValue(ClaimTypes.Email);
-            
+
             var orders = await _dataContext.Orders
                 .Where(o => o.UserName == userEmail)
                 .OrderByDescending(o => o.Id).ToListAsync();
@@ -210,28 +211,41 @@ namespace dotnet_project.Controllers
             return RedirectToAction("History", "Account");
         }
 
-        //public async Task SignInWithGoogle()
-        //{
-        //    await HttpContext.ChallengeAsync(GoogleDefaults.AuthenticationScheme,
-        //        new AuthenticationProperties
-        //        {
-        //            RedirectUri = Url.Action("GoogleResponse")
-        //        });
-        //}
+        public async Task SignInWithGoogle()
+        {
+            await HttpContext.ChallengeAsync(GoogleDefaults.AuthenticationScheme,
+                new AuthenticationProperties
+                {
+                    RedirectUri = Url.Action("GoogleResponse")
+                });
+        }
 
-        //public async Task<IActionResult> GoogleResponse()
-        //{
-        //    var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-        //    var claims = result.Principal.Identities.FirstOrDefault().Claims.Select(claim => new
-        //    {
-        //        claim.Issuer,
-        //        claim.OriginalIssuer,
-        //        claim.Type,
-        //        claim.Value
-        //    });
-        //    TempData["success"] = "Sign in successfully!";
-        //    return RedirectToAction("Index", "Home");
-        //    //return Json(claims);
-        //}
+        public async Task<IActionResult> GoogleResponse()
+        {
+            //var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            //var claims = result.Principal.Identities.FirstOrDefault().Claims.Select(claim => new
+            //{
+            //    claim.Issuer,
+            //    claim.OriginalIssuer,
+            //    claim.Type,
+            //    claim.Value
+            //});
+            //TempData["success"] = "Sign in successfully!";
+            //return RedirectToAction("Index", "Home");
+            //return Json(claims);
+
+            // Lấy thông tin người dùng từ Google sau khi đăng nhập thành công
+            var authenticateResult = await HttpContext.AuthenticateAsync(GoogleDefaults.AuthenticationScheme);
+            if (authenticateResult.Succeeded)
+            {
+                // Lấy thông tin người dùng từ claims
+                var claims = authenticateResult.Principal.Claims;
+                var email = claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
+                var name = claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
+				return RedirectToAction("Index", "Home");
+			}
+            
+			return RedirectToAction("Login", "Account");
+		}
     }
 }

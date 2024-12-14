@@ -12,7 +12,11 @@ namespace dotnet_project.Controllers
 		{
 			_dataContext = context;
 		}
-
+		//public IActionResult Index()
+		//{
+		//	var products = _dataContext.Products.Include("Category").Include("Brand").ToList();
+		//	return View(products);
+		//}
 		public async Task<IActionResult> Index(string Slug = "", string sort_by = "",string startprice="",string endprice="")
 		{
 			CategoryModel category = _dataContext.Categories.Where(c => c.Slug == Slug).FirstOrDefault();
