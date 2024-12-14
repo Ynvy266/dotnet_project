@@ -14,5 +14,10 @@ namespace dotnet_project.Models
         [DataType(DataType.Password), Required(ErrorMessage = "The password field is required.")]
         //password encryption
         public string Password { get; set; }
+
+        //[Required]
+        //[DataType(DataType.Password)]
+        //[Compare(nameof(Password), ErrorMessage = "Password and confirmation password did not match.")]
+        //public string ConfirmPassword { get; set; }
     }
 }

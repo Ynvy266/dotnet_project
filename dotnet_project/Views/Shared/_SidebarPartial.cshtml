@@ -1,4 +1,8 @@
-﻿<div class="left-sidebar">
+﻿@{
+	var currentUrl = Url.ActionContext.HttpContext.Request.Path;
+
+}
+<div class="left-sidebar">
 	<h2>Category</h2>
 	<div class="panel-group category-products" id="accordian">
 
@@ -14,5 +18,42 @@
 		<vc:brands></vc:brands>
 
 	</div><!--/brand-products-->
+
+	<h2>Filter & Sort</h2>
+	<div class="panel-group category-products" id="accordian">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-2">
+					<h5>Sắp xếp theo</h5>
+					<select class="form-control" id="sort_by">
+						<option>------------</option>
+						<option value="@currentUrl?sort_by=price_increase">Giá tăng dần</option>
+						<option value="@currentUrl?sort_by=price_decrease">Giá giảm dần</option>
+						<option value="@currentUrl?sort_by=price_newest">Mới nhất</option>
+						<option value="@currentUrl?sort_by=price_oldest">Cũ nhất</option>
+					</select>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5">
+					<h5>Lọc theo giá</h5>
+					<form asp-action="Index" asp-controller="Category">
+						<p>
+							<label for="amount">Price range:</label>
+							<input type="text" id="amount" readonly="" style="border:0; color:#f6931f; font-weight:bold">
+						</p>
+
+						<div id="slider-range" style="width:200px"></div>
+						<button type="submit" name="locgia" data-current_url="@currentUrl" class="btn btn-locgia" style="margin-top:10px;background-color:#f6931f;color: #fff">Lọc</button>
+
+
+					</form>
+				</div>
+			</div>
+		</div>
+
+	</div>
 
 </div>

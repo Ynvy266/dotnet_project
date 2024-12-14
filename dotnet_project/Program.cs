@@ -72,23 +72,22 @@ builder.Services.Configure<IdentityOptions>(options =>
 //});
 
 //Configuration Sign In Google Account
-//builder.Services.AddAuthentication(options =>
-//{
-//    options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-//    options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-//    options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-
-//}).AddCookie().AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
-//{
-//    options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
-//    options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
-//});
+builder.Services.AddAuthentication(options =>
+{
+    //    options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    //    options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    //    options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
+    }).AddCookie().AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
+    {
+        options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
+        options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
+});
 
 var app = builder.Build();
 
 app.UseStatusCodePagesWithRedirects("/Home/Error?statuscode={0}");
-
-app.UseSession();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -98,6 +97,8 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseSession();
 
 app.UseAuthentication();
 app.UseAuthorization();

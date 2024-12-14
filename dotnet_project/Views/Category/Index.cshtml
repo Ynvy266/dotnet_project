@@ -11,7 +11,7 @@
 
 	<div class="features_items">
 
-		@Html.Partial("_FilterProductsPartial")
+		@* @Html.Partial("_FilterProductsPartial") *@
 
 		<!--features_items-->
 
@@ -67,7 +67,7 @@
 				step: 100000,
 				min: 0,
 				max: 700000,
-				values: [0, 300000],
+				values: [0, 100000],
 				slide: function (event, ui) {
 					$("#amount").val(ui.values[0] + "VNĐ - " + ui.values[1] + "VNĐ");
 				}
@@ -81,7 +81,7 @@
 		$('.btn-locgia').on('click', function () {
 			var url = $(this).data("current_url");
 
-			if (url) {//http://localhost:5030/category/laptop?startprice=10000&endprice=300000
+			if (url) {//https://localhost:5030/category/laptop?startprice=10000&endprice=300000
 				window.location = url + "?startprice=" + $("#slider-range").slider("values", 0) + "&endprice=" + $("#slider-range").slider("values", 1);
 
 			}

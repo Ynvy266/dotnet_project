@@ -210,28 +210,41 @@ namespace dotnet_project.Controllers
             return RedirectToAction("History", "Account");
         }
 
-        //public async Task SignInWithGoogle()
-        //{
-        //    await HttpContext.ChallengeAsync(GoogleDefaults.AuthenticationScheme,
-        //        new AuthenticationProperties
-        //        {
-        //            RedirectUri = Url.Action("GoogleResponse")
-        //        });
-        //}
+        public async Task SignInWithGoogle()
+        {
+            await HttpContext.ChallengeAsync(GoogleDefaults.AuthenticationScheme,
+                new AuthenticationProperties
+                {
+                    RedirectUri = Url.Action("GoogleResponse")
+                });
+        }
 
-        //public async Task<IActionResult> GoogleResponse()
-        //{
-        //    var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-        //    var claims = result.Principal.Identities.FirstOrDefault().Claims.Select(claim => new
-        //    {
-        //        claim.Issuer,
-        //        claim.OriginalIssuer,
-        //        claim.Type,
-        //        claim.Value
-        //    });
-        //    TempData["success"] = "Sign in successfully!";
-        //    return RedirectToAction("Index", "Home");
-        //    //return Json(claims);
-        //}
+        public async Task<IActionResult> GoogleResponse()
+        {
+            // Lấy thông tin người dùng từ Google sau khi đăng nhập thành công
+            var authenticateResult = await HttpContext.AuthenticateAsync(GoogleDefaults.AuthenticationScheme);
+            if (authenticateResult.Succeeded)
+            {
+                // Lấy thông tin người dùng từ claims
+                var claims = authenticateResult.Principal.Claims;
+                var email = claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
+                var name = claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
+                return RedirectToAction("Index", "Home");
+            }
+
+            return RedirectToAction("Login", "Account");
+
+            //var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            //var claims = result.Principal.Identities.FirstOrDefault().Claims.Select(claim => new
+            //{
+            //    claim.Issuer,
+            //    claim.OriginalIssuer,
+            //    claim.Type,
+            //    claim.Value
+            //});
+            //TempData["success"] = "Sign in successfully!";
+            //return RedirectToAction("Index", "Home");
+            //return Json(claims);
+        }
     }
 }
