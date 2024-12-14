@@ -67,6 +67,7 @@
 								<td>
 									@* <a class="btn btn-primary btn-sm" asp-controller="Checkout" asp-action="Checkout"> Checkout </a> *@
 									<a class="btn btn-primary btn-sm btn-checkout"
+									   style="border-radius: 0; height:33px"
 									   onclick="return confirm('Confirm checkout?');"
 									   asp-controller="Checkout" asp-action="Checkout">
 									   Checkout
@@ -79,7 +80,9 @@
 									@* <input type="hidden" name="OrderId" value="@Guid.NewGuid().ToString()" /> *@
 									<input type="hidden" name="OrderInfo" value="Pay with MoMo for the order at Plantaby Pottery Shop." />
 									<input type="hidden" name="FullName" value="@User.Identity.Name" />
-									<button class="btn btn-primary btn-sm" name="PayUrl" type="submit">Pay with MoMo</button>
+									<button style="border-radius: 0; height:33px" class="btn btn-primary btn-sm" 
+											name="PayUrl" type="submit">Pay with MoMo
+									</button>
 								</form>
 								
 							</td>
