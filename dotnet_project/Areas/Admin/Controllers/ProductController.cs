@@ -85,6 +85,7 @@ namespace dotnet_project.Areas.Admin.Controllers
             return View(product);
         }
 
+        [Route("Edit")]
         public async Task<IActionResult> Edit(long Id)
         {
             ProductModel product = await _dataContext.Products.FindAsync(Id);
@@ -94,10 +95,12 @@ namespace dotnet_project.Areas.Admin.Controllers
             return View(product);
         }
 
+        [Route("Edit")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(long Id, ProductModel product)
+        public async Task<IActionResult> Edit(ProductModel product)
         {
+            var existed_product = _dataContext.Products.Find(product.Id);
             ViewBag.Categories = new SelectList(_dataContext.Categories, "Id", "Name", product.CategoryId);
             ViewBag.Brands = new SelectList(_dataContext.Brands, "Id", "Name", product.BrandId);
 
@@ -122,6 +125,15 @@ namespace dotnet_project.Areas.Admin.Controllers
                     fs.Close();
                     product.Image = imageName;
                 }
+
+                //update other product properties
+                existed_product.Name = product.Name;
+                existed_product.Description = product.Description;
+                existed_product.CategoryId = product.CategoryId;
+                existed_product.BrandId = product.BrandId;
+                existed_product.CapitalPrice = product.CapitalPrice;
+                existed_product.Price = product.Price;
+
                 _dataContext.Update(product);
                 await _dataContext.SaveChangesAsync();
                 TempData["success"] = "Successfully updated the product information!";

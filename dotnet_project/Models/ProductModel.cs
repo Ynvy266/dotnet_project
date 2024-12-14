@@ -20,8 +20,12 @@ namespace dotnet_project.Models
         [Range(0.01, double.MaxValue)]
         [Column(TypeName = "decimal(8, 2)")]
         public decimal Price { get; set; }
+		[Required(ErrorMessage = "The capital price field is required.")]
+        public decimal CapitalPrice { get; set; }
+        public int Quantity { get; set; }
+        public int Sold { get; set; }
 
-        public string Image { get; set; } = "NoImage";
+		public string Image { get; set; } = "NoImage";
 
         [Required, Range(1, int.MaxValue, ErrorMessage ="Please choose a brand.")]
         public int BrandId { get; set; }

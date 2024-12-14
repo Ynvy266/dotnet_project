@@ -10,9 +10,12 @@
         <tr>
             <th scope="col">#</th>
             <th scope="col">Name</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Sold</th>
             <th scope="col">Category</th>
             <th scope="col">Brand</th>
-            <th scope="col">Price</th>
+            <th scope="col">Sell Price</th>
+            <th scope="col">Capital Price</th>
             <th scope="col">Image</th>
             <th scope="col">Description</th>
             <th scope="col">Action</th>
@@ -23,9 +26,13 @@
             <tr>
                 <th scope="row">@item.Id</th>
                 <td>@item.Name</td>
+                <td><b>@item.Quantity</b><br /><a asp-controller="Product" asp-action="AddQuantity" asp-route-Id="@item.Id">Add Quantity</a></td>
+                <td><b>@item.Sold</b></td>
+                <td>@Html.Raw(item.Description)</td>
                 <td>@item.Category.Name</td>
                 <td>@item.Brand.Name</td>
-                <td>@item.Price</td>
+                <td>@item.Price.ToString("#,##0 VND")</td>
+                <td>@item.CapitalPrice.ToString("#,##0 VND")</td>
                 <td><img src="~/media/products/@item.Image" width="120"></td>
                 <td>@Html.Raw(@item.Description)</td>
                 <td>
