@@ -36,13 +36,13 @@ namespace dotnet_project.Areas.Admin.Controllers
                 .Where(o => o.OrderCode == ordercode).First();
             //ViewBag.ShippingCost = order.ShippingCost;
             ViewBag.Status = order.Status;
-            
+
             return View(detailsOrder);
         }
 
         [HttpPost]
         [Route("UpdateOrder")]
-        public async Task<IActionResult> UpdateOrder(string ordercode, int status)
+        public async Task<IActionResult> UpdateOrder(String ordercode, int status)
         {
             var order = await _dataContext.Orders.FirstOrDefaultAsync(o => o.OrderCode == ordercode);
             if (order == null)
@@ -50,14 +50,65 @@ namespace dotnet_project.Areas.Admin.Controllers
                 return NotFound();
             }
             order.Status = status;
+            _dataContext.Update(order);
+            if (status == 0)
+            {
+                var DetailOrder = await _dataContext.OrderDetails
+                    .Include(od => od.Product)
+                    .Where(od => od.OrderCode == order.OrderCode)
+                    .Select(od => new
+                    {
+                        od.Quantity,
+                        od.Product.Price,
+                        od.Product.CapitalPrice
+                    }).ToListAsync();
+                //lay data thong ke dua vao ngay dat hang
+                var statisticModel = await _dataContext.Statistic
+                    .FirstOrDefaultAsync(s => s.DateCreated.Date == order.CreatedDate.Date);
+                if (statisticModel != null)
+                {
+                    foreach (var orderDetail in DetailOrder)
+                    {
+                        statisticModel.Quantity += 1;
+                        statisticModel.Sold += orderDetail.Quantity;
+                        statisticModel.Revenue += orderDetail.Quantity * orderDetail.Price;
+                        statisticModel.Profit += orderDetail.Price - orderDetail.CapitalPrice;
+
+                    }
+                    _dataContext.Update(statisticModel);
+                }
+                else
+                {
+                    int new_quantity = 0;
+                    int new_sold = 0;
+                    decimal new_profit = 0;
+                    foreach (var orderDetail in DetailOrder)
+                    {
+                        new_quantity += 1;
+                        new_sold += orderDetail.Quantity;
+                        new_profit += orderDetail.Price - orderDetail.CapitalPrice;
+
+                        statisticModel = new Models.StatisticModel
+                        {
+                            DateCreated = order.CreatedDate,
+                            Quantity = new_quantity,
+                            Sold = new_sold,
+                            Revenue = orderDetail.Quantity * orderDetail.Price,
+                            Profit = new_profit
+                        };
+                    }
+                    _dataContext.Add(statisticModel);
+                }
+            }
+
             try
             {
                 await _dataContext.SaveChangesAsync();
-                return Ok(new { success = true, message = "Order status has been updated successfully!" });
+                return Ok(new { seccess = true, message = "Order status updated successfully" });
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                return StatusCode(500, "An error occured while updating the order status.");
+                return StatusCode(500, "An error occurred while updating the order status.");
             }
         }
 

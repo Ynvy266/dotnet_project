@@ -14,7 +14,8 @@
             <th scope="col">Sold</th>
             <th scope="col">Category</th>
             <th scope="col">Brand</th>
-            <th scope="col">Price</th>
+            <th scope="col">Sell Price</th>
+            <th scope="col">Capital Price</th>
             <th scope="col">Image</th>
             <th scope="col">Description</th>
             <th scope="col">Action</th>
@@ -30,6 +31,7 @@
                 <td>@item.Category.Name</td>
                 <td>@item.Brand.Name</td>
                 <td>@item.Price.ToString("#,##0 VNĐ")</td>
+                <td>@item.CapitalPrice.ToString("#,##0 VNĐ")</td>
                 <td><img src="~/media/products/@item.Image" width="120"></td>
                 <td>@Html.Raw(@item.Description)</td>
                 <td>

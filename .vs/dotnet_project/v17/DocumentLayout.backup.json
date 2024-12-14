@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Migrations\\20241214103801_updateModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dotnet_project\\Migrations\\20241214103801_updateModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\models\\statisticmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\models\\statisticmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\areas\\admin\\views\\order\\vieworder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\areas\\admin\\views\\order\\vieworder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|c:\\users\\nguye\\onedrive\\documents\\github\\dotnet_project\\dotnet_project\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFE266A-F515-42EB-80FA-DC0E8FCE0ED0}|dotnet_project\\dotnet_project.csproj|solutionrelative:dotnet_project\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,54 +62,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Views\\Product\\Details.cshtml",
-              "RelativeDocumentMoniker": "dotnet_project\\Views\\Product\\Details.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Views\\Product\\Details.cshtml*",
-              "RelativeToolTip": "dotnet_project\\Views\\Product\\Details.cshtml*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T04:13:41.794Z",
+              "DocumentIndex": 0,
+              "Title": "20241214103801_updateModel.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Migrations\\20241214103801_updateModel.cs",
+              "RelativeDocumentMoniker": "dotnet_project\\Migrations\\20241214103801_updateModel.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Migrations\\20241214103801_updateModel.cs",
+              "RelativeToolTip": "dotnet_project\\Migrations\\20241214103801_updateModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:38:02.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "dotnet_project\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Controllers\\CartController.cs",
-              "RelativeToolTip": "dotnet_project\\Controllers\\CartController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Title": "StatisticModel.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Models\\StatisticModel.cs",
+              "RelativeDocumentMoniker": "dotnet_project\\Models\\StatisticModel.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Models\\StatisticModel.cs",
+              "RelativeToolTip": "dotnet_project\\Models\\StatisticModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T04:11:49.92Z",
+              "WhenOpened": "2024-12-14T10:36:27.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Models\\ProductModel.cs",
+              "RelativeDocumentMoniker": "dotnet_project\\Models\\ProductModel.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Models\\ProductModel.cs",
+              "RelativeToolTip": "dotnet_project\\Models\\ProductModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:35:27.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "dotnet_project\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "dotnet_project\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T04:11:43.652Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "dotnet_project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "dotnet_project\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T10:31:02.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "dotnet_project\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Views\\Cart\\Index.cshtml*",
-              "RelativeToolTip": "dotnet_project\\Views\\Cart\\Index.cshtml*",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADEAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "dotnet_project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "dotnet_project\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T03:38:04.488Z",
+              "WhenOpened": "2024-12-14T10:30:11.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ViewOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Order\\ViewOrder.cshtml",
+              "RelativeDocumentMoniker": "dotnet_project\\Areas\\Admin\\Views\\Order\\ViewOrder.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Views\\Order\\ViewOrder.cshtml",
+              "RelativeToolTip": "dotnet_project\\Areas\\Admin\\Views\\Order\\ViewOrder.cshtml",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAlwGYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T10:22:59.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "dotnet_project\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "dotnet_project\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAwIsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:19:26.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "dotnet_project\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\Documents\\GitHub\\dotnet_project\\dotnet_project\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "dotnet_project\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwFsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:05:23.331Z",
               "EditorCaption": ""
             }
           ]
